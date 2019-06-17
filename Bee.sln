@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bee_UI", "Bee_UI\Bee_UI.csproj", "{8A940038-85B6-4F29-840C-FC73032872F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bee.Core", "BEE.Core\Bee.Core.csproj", "{5700F457-3EA4-49FD-9416-A39F1A414700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bee.Data", "BEE.Data\Bee.Data.csproj", "{E23E1B04-CD31-43ED-A988-1925714C6F35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A940038-85B6-4F29-840C-FC73032872F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A940038-85B6-4F29-840C-FC73032872F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A940038-85B6-4F29-840C-FC73032872F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A940038-85B6-4F29-840C-FC73032872F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5700F457-3EA4-49FD-9416-A39F1A414700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5700F457-3EA4-49FD-9416-A39F1A414700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5700F457-3EA4-49FD-9416-A39F1A414700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5700F457-3EA4-49FD-9416-A39F1A414700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23E1B04-CD31-43ED-A988-1925714C6F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23E1B04-CD31-43ED-A988-1925714C6F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23E1B04-CD31-43ED-A988-1925714C6F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23E1B04-CD31-43ED-A988-1925714C6F35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C4F2196-95F6-44F1-8DDC-85D13E25D26D}
+	EndGlobalSection
+EndGlobal

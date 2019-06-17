@@ -1,0 +1,569 @@
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\csc.exe
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\vbc.exe
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\Bee_UI.dll.config
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\Bee_UI.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\Bee_UI.pdb
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Helpers.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Mvc.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Razor.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Webpages.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Webpages.Razor.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Razor.xml
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Webpages.xml
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Webpages.Razor.xml
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Helpers.xml
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\bin\System.Web.Mvc.xml
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\obj\Debug\Bee_UI.csprojResolveAssemblyReference.cache
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\obj\Debug\Bee_UI.dll
+c:\users\yavuz\documents\visual studio 2015\Projects\Bee\Bee_UI\obj\Debug\Bee_UI.pdb
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\csc.exe
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\vbc.exe
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\Bee_UI.dll.config
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\Bee_UI.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\Bee_UI.pdb
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Helpers.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Mvc.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Razor.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Webpages.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Webpages.Razor.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Razor.xml
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Webpages.xml
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Webpages.Razor.xml
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Helpers.xml
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\System.Web.Mvc.xml
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\obj\Debug\Bee_UI.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\obj\Debug\Bee_UI.pdb
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\csc.exe
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\vbc.exe
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\Bee_UI.dll.config
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\Bee_UI.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\Bee_UI.pdb
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Helpers.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Mvc.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Razor.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Razor.xml
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.xml
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Helpers.xml
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\System.Web.Mvc.xml
+C:\Users\Emre\Desktop\Bee\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+C:\Users\Emre\Desktop\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+C:\Users\Emre\Desktop\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+C:\Users\Emre\Desktop\Bee\Bee_UI\obj\Debug\Bee_UI.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\obj\Debug\Bee_UI.pdb
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\BEE.Data.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\BEE.Data.pdb
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\BEE.Data.dll.config
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\EntityFramework.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\EntityFramework.xml
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\EntityFramework.SqlServer.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\EntityFramework.SqlServer.xml
+E:\Bee\Bee_UI\bin\roslyn\csc.exe
+E:\Bee\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Bee\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Bee\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Bee\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+E:\Bee\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Bee\Bee_UI\bin\roslyn\vbc.exe
+E:\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe
+E:\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+E:\Bee\Bee_UI\bin\Bee_UI.dll.config
+E:\Bee\Bee_UI\bin\Bee_UI.dll
+E:\Bee\Bee_UI\bin\Bee_UI.pdb
+E:\Bee\Bee_UI\bin\BEE.Data.dll
+E:\Bee\Bee_UI\bin\EntityFramework.dll
+E:\Bee\Bee_UI\bin\EntityFramework.SqlServer.dll
+E:\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Bee\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+E:\Bee\Bee_UI\bin\System.Web.Helpers.dll
+E:\Bee\Bee_UI\bin\System.Web.Mvc.dll
+E:\Bee\Bee_UI\bin\System.Web.Razor.dll
+E:\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+E:\Bee\Bee_UI\bin\System.Web.Webpages.dll
+E:\Bee\Bee_UI\bin\System.Web.Webpages.Razor.dll
+E:\Bee\Bee_UI\bin\BEE.Data.pdb
+E:\Bee\Bee_UI\bin\BEE.Data.dll.config
+E:\Bee\Bee_UI\bin\EntityFramework.xml
+E:\Bee\Bee_UI\bin\EntityFramework.SqlServer.xml
+E:\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Bee\Bee_UI\bin\System.Web.Razor.xml
+E:\Bee\Bee_UI\bin\System.Web.Webpages.xml
+E:\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+E:\Bee\Bee_UI\bin\System.Web.Webpages.Razor.xml
+E:\Bee\Bee_UI\bin\System.Web.Helpers.xml
+E:\Bee\Bee_UI\bin\System.Web.Mvc.xml
+E:\Bee\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+E:\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+E:\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+E:\Bee\Bee_UI\obj\Debug\Bee_UI.dll
+E:\Bee\Bee_UI\obj\Debug\Bee_UI.pdb
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\BEE.Data.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\EntityFramework.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\EntityFramework.SqlServer.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\BEE.Data.pdb
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\BEE.Data.dll.config
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\EntityFramework.xml
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\EntityFramework.SqlServer.xml
+G:\Bee\Bee_UI\bin\roslyn\csc.exe
+G:\Bee\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Bee\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Bee\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Bee\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+G:\Bee\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+G:\Bee\Bee_UI\bin\roslyn\vbc.exe
+G:\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe
+G:\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+G:\Bee\Bee_UI\bin\Bee_UI.dll.config
+G:\Bee\Bee_UI\bin\Bee_UI.dll
+G:\Bee\Bee_UI\bin\Bee_UI.pdb
+G:\Bee\Bee_UI\bin\BEE.Data.dll
+G:\Bee\Bee_UI\bin\EntityFramework.dll
+G:\Bee\Bee_UI\bin\EntityFramework.SqlServer.dll
+G:\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Bee\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+G:\Bee\Bee_UI\bin\System.Web.Helpers.dll
+G:\Bee\Bee_UI\bin\System.Web.Mvc.dll
+G:\Bee\Bee_UI\bin\System.Web.Razor.dll
+G:\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+G:\Bee\Bee_UI\bin\System.Web.Webpages.dll
+G:\Bee\Bee_UI\bin\System.Web.Webpages.Razor.dll
+G:\Bee\Bee_UI\bin\BEE.Data.pdb
+G:\Bee\Bee_UI\bin\BEE.Data.dll.config
+G:\Bee\Bee_UI\bin\EntityFramework.xml
+G:\Bee\Bee_UI\bin\EntityFramework.SqlServer.xml
+G:\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Bee\Bee_UI\bin\System.Web.Razor.xml
+G:\Bee\Bee_UI\bin\System.Web.Webpages.xml
+G:\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+G:\Bee\Bee_UI\bin\System.Web.Webpages.Razor.xml
+G:\Bee\Bee_UI\bin\System.Web.Helpers.xml
+G:\Bee\Bee_UI\bin\System.Web.Mvc.xml
+G:\Bee\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+G:\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+G:\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+G:\Bee\Bee_UI\obj\Debug\Bee_UI.dll
+G:\Bee\Bee_UI\obj\Debug\Bee_UI.pdb
+F:\Bee\Bee_UI\bin\roslyn\csc.exe
+F:\Bee\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Bee\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Bee\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Bee\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+F:\Bee\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+F:\Bee\Bee_UI\bin\roslyn\vbc.exe
+F:\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe
+F:\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+F:\Bee\Bee_UI\bin\Bee_UI.dll.config
+F:\Bee\Bee_UI\bin\Bee_UI.dll
+F:\Bee\Bee_UI\bin\Bee_UI.pdb
+F:\Bee\Bee_UI\bin\BEE.Data.dll
+F:\Bee\Bee_UI\bin\EntityFramework.dll
+F:\Bee\Bee_UI\bin\EntityFramework.SqlServer.dll
+F:\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Bee\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+F:\Bee\Bee_UI\bin\System.Web.Helpers.dll
+F:\Bee\Bee_UI\bin\System.Web.Mvc.dll
+F:\Bee\Bee_UI\bin\System.Web.Razor.dll
+F:\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+F:\Bee\Bee_UI\bin\System.Web.Webpages.dll
+F:\Bee\Bee_UI\bin\System.Web.Webpages.Razor.dll
+F:\Bee\Bee_UI\bin\BEE.Data.pdb
+F:\Bee\Bee_UI\bin\BEE.Data.dll.config
+F:\Bee\Bee_UI\bin\EntityFramework.xml
+F:\Bee\Bee_UI\bin\EntityFramework.SqlServer.xml
+F:\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Bee\Bee_UI\bin\System.Web.Razor.xml
+F:\Bee\Bee_UI\bin\System.Web.Webpages.xml
+F:\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+F:\Bee\Bee_UI\bin\System.Web.Webpages.Razor.xml
+F:\Bee\Bee_UI\bin\System.Web.Helpers.xml
+F:\Bee\Bee_UI\bin\System.Web.Mvc.xml
+F:\Bee\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+F:\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+F:\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+F:\Bee\Bee_UI\obj\Debug\Bee_UI.dll
+F:\Bee\Bee_UI\obj\Debug\Bee_UI.pdb
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\csc.exe
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\vbc.exe
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe
+E:\Yeni klasör\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+E:\Yeni klasör\Bee\Bee_UI\bin\Bee_UI.dll.config
+E:\Yeni klasör\Bee\Bee_UI\bin\Bee_UI.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\Bee_UI.pdb
+E:\Yeni klasör\Bee\Bee_UI\bin\BEE.Data.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\EntityFramework.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\EntityFramework.SqlServer.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Helpers.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Mvc.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Razor.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Webpages.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Webpages.Razor.dll
+E:\Yeni klasör\Bee\Bee_UI\bin\BEE.Data.pdb
+E:\Yeni klasör\Bee\Bee_UI\bin\BEE.Data.dll.config
+E:\Yeni klasör\Bee\Bee_UI\bin\EntityFramework.xml
+E:\Yeni klasör\Bee\Bee_UI\bin\EntityFramework.SqlServer.xml
+E:\Yeni klasör\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Razor.xml
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Webpages.xml
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Webpages.Razor.xml
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Helpers.xml
+E:\Yeni klasör\Bee\Bee_UI\bin\System.Web.Mvc.xml
+E:\Yeni klasör\Bee\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+E:\Yeni klasör\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+E:\Yeni klasör\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+E:\Yeni klasör\Bee\Bee_UI\obj\Debug\Bee_UI.dll
+E:\Yeni klasör\Bee\Bee_UI\obj\Debug\Bee_UI.pdb
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\csc.exe
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\vbc.exe
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\Bee_UI.dll.config
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\Bee_UI.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\Bee_UI.pdb
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\BEE.Data.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\EntityFramework.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\EntityFramework.SqlServer.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Helpers.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Mvc.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Razor.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\BEE.Data.pdb
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\BEE.Data.dll.config
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\EntityFramework.xml
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\EntityFramework.SqlServer.xml
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Razor.xml
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.xml
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Helpers.xml
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\System.Web.Mvc.xml
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\obj\Debug\Bee_UI.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\obj\Debug\Bee_UI.pdb
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\BEE.Core.dll
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\BEE.Core.pdb
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\BEE.Core.dll.config
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\BEE.Core.dll
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\BEE.Core.pdb
+C:\Users\Yavuz\Desktop\Bee\Bee_UI\bin\BEE.Core.dll.config
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\obj\Debug\Bee_UI.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\obj\Debug\Bee_UI.pdb
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\csc.exe
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\vbc.exe
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\Bee_UI.dll.config
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\Bee_UI.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\Bee_UI.pdb
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\BEE.Core.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\BEE.Data.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\EntityFramework.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\EntityFramework.SqlServer.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Helpers.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Mvc.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Razor.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\BEE.Core.pdb
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\BEE.Core.dll.config
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\BEE.Data.pdb
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\BEE.Data.dll.config
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\EntityFramework.xml
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\EntityFramework.SqlServer.xml
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Razor.xml
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.xml
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Helpers.xml
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\System.Web.Mvc.xml
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\csc.exe
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\vbc.exe
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\Bee_UI.dll.config
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\Bee_UI.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\Bee_UI.pdb
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\BEE.Core.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\BEE.Data.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\EntityFramework.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\EntityFramework.SqlServer.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Helpers.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Mvc.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Razor.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\BEE.Core.pdb
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\BEE.Core.dll.config
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\BEE.Data.pdb
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\BEE.Data.dll.config
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\EntityFramework.xml
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\EntityFramework.SqlServer.xml
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Razor.xml
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.xml
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Helpers.xml
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\System.Web.Mvc.xml
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\obj\Debug\Bee_UI.dll
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\obj\Debug\Bee_UI.pdb
+C:\Users\Yavuz\Desktop\BeeSon\Bee_UI\bin\Newtonsoft.Json.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\Dynamsoft.BarcodeReader.dll
+C:\Users\Emre\Desktop\BeeSon\Bee_UI\bin\Newtonsoft.Json.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\csc.exe
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\vbc.exe
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\Bee_UI.dll.config
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\Bee_UI.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\Bee_UI.pdb
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\BEE.Core.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\BEE.Data.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\EntityFramework.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\EntityFramework.SqlServer.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\Newtonsoft.Json.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Helpers.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Mvc.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Razor.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Webpages.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\BEE.Core.pdb
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\BEE.Core.dll.config
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\BEE.Data.pdb
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\BEE.Data.dll.config
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\EntityFramework.xml
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\EntityFramework.SqlServer.xml
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Razor.xml
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Webpages.xml
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Helpers.xml
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\bin\System.Web.Mvc.xml
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\obj\Debug\Bee_UI.dll
+C:\Users\Yavuz\Desktop\siteler\BeeSon\Bee_UI\obj\Debug\Bee_UI.pdb
+D:\BeeSon\Bee_UI\bin\roslyn\csc.exe
+D:\BeeSon\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BeeSon\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BeeSon\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BeeSon\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+D:\BeeSon\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+D:\BeeSon\Bee_UI\bin\roslyn\vbc.exe
+D:\BeeSon\Bee_UI\bin\roslyn\VBCSCompiler.exe
+D:\BeeSon\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+D:\BeeSon\Bee_UI\bin\Bee_UI.dll.config
+D:\BeeSon\Bee_UI\bin\Bee_UI.dll
+D:\BeeSon\Bee_UI\bin\Bee_UI.pdb
+D:\BeeSon\Bee_UI\bin\BEE.Core.dll
+D:\BeeSon\Bee_UI\bin\BEE.Data.dll
+D:\BeeSon\Bee_UI\bin\EntityFramework.dll
+D:\BeeSon\Bee_UI\bin\EntityFramework.SqlServer.dll
+D:\BeeSon\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BeeSon\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+D:\BeeSon\Bee_UI\bin\Newtonsoft.Json.dll
+D:\BeeSon\Bee_UI\bin\System.Web.Helpers.dll
+D:\BeeSon\Bee_UI\bin\System.Web.Mvc.dll
+D:\BeeSon\Bee_UI\bin\System.Web.Razor.dll
+D:\BeeSon\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+D:\BeeSon\Bee_UI\bin\System.Web.Webpages.dll
+D:\BeeSon\Bee_UI\bin\System.Web.Webpages.Razor.dll
+D:\BeeSon\Bee_UI\bin\BEE.Core.pdb
+D:\BeeSon\Bee_UI\bin\BEE.Core.dll.config
+D:\BeeSon\Bee_UI\bin\BEE.Data.pdb
+D:\BeeSon\Bee_UI\bin\BEE.Data.dll.config
+D:\BeeSon\Bee_UI\bin\EntityFramework.xml
+D:\BeeSon\Bee_UI\bin\EntityFramework.SqlServer.xml
+D:\BeeSon\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BeeSon\Bee_UI\bin\System.Web.Razor.xml
+D:\BeeSon\Bee_UI\bin\System.Web.Webpages.xml
+D:\BeeSon\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+D:\BeeSon\Bee_UI\bin\System.Web.Webpages.Razor.xml
+D:\BeeSon\Bee_UI\bin\System.Web.Helpers.xml
+D:\BeeSon\Bee_UI\bin\System.Web.Mvc.xml
+D:\BeeSon\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+D:\BeeSon\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+D:\BeeSon\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+D:\BeeSon\Bee_UI\obj\Debug\Bee_UI.dll
+D:\BeeSon\Bee_UI\obj\Debug\Bee_UI.pdb
+E:\BeeSon\Bee_UI\bin\roslyn\csc.exe
+E:\BeeSon\Bee_UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BeeSon\Bee_UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BeeSon\Bee_UI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BeeSon\Bee_UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BeeSon\Bee_UI\bin\roslyn\System.Collections.Immutable.dll
+E:\BeeSon\Bee_UI\bin\roslyn\System.Reflection.Metadata.dll
+E:\BeeSon\Bee_UI\bin\roslyn\vbc.exe
+E:\BeeSon\Bee_UI\bin\roslyn\VBCSCompiler.exe
+E:\BeeSon\Bee_UI\bin\roslyn\VBCSCompiler.exe.config
+E:\BeeSon\Bee_UI\bin\Bee_UI.dll.config
+E:\BeeSon\Bee_UI\bin\Bee_UI.dll
+E:\BeeSon\Bee_UI\bin\Bee_UI.pdb
+E:\BeeSon\Bee_UI\bin\BEE.Core.dll
+E:\BeeSon\Bee_UI\bin\BEE.Data.dll
+E:\BeeSon\Bee_UI\bin\EntityFramework.dll
+E:\BeeSon\Bee_UI\bin\EntityFramework.SqlServer.dll
+E:\BeeSon\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BeeSon\Bee_UI\bin\Microsoft.Web.Infrastructure.dll
+E:\BeeSon\Bee_UI\bin\Newtonsoft.Json.dll
+E:\BeeSon\Bee_UI\bin\System.Web.Helpers.dll
+E:\BeeSon\Bee_UI\bin\System.Web.Mvc.dll
+E:\BeeSon\Bee_UI\bin\System.Web.Razor.dll
+E:\BeeSon\Bee_UI\bin\System.Web.Webpages.Deployment.dll
+E:\BeeSon\Bee_UI\bin\System.Web.Webpages.dll
+E:\BeeSon\Bee_UI\bin\System.Web.Webpages.Razor.dll
+E:\BeeSon\Bee_UI\bin\BEE.Core.pdb
+E:\BeeSon\Bee_UI\bin\BEE.Core.dll.config
+E:\BeeSon\Bee_UI\bin\BEE.Data.pdb
+E:\BeeSon\Bee_UI\bin\BEE.Data.dll.config
+E:\BeeSon\Bee_UI\bin\EntityFramework.xml
+E:\BeeSon\Bee_UI\bin\EntityFramework.SqlServer.xml
+E:\BeeSon\Bee_UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BeeSon\Bee_UI\bin\System.Web.Razor.xml
+E:\BeeSon\Bee_UI\bin\System.Web.Webpages.xml
+E:\BeeSon\Bee_UI\bin\System.Web.Webpages.Deployment.xml
+E:\BeeSon\Bee_UI\bin\System.Web.Webpages.Razor.xml
+E:\BeeSon\Bee_UI\bin\System.Web.Helpers.xml
+E:\BeeSon\Bee_UI\bin\System.Web.Mvc.xml
+E:\BeeSon\Bee_UI\obj\Debug\Bee_UI.csprojAssemblyReference.cache
+E:\BeeSon\Bee_UI\obj\Debug\Bee_UI.csproj.CoreCompileInputs.cache
+E:\BeeSon\Bee_UI\obj\Debug\Bee_UI.csproj.CopyComplete
+E:\BeeSon\Bee_UI\obj\Debug\Bee_UI.dll
+E:\BeeSon\Bee_UI\obj\Debug\Bee_UI.pdb
+C:\Users\Emre\Desktop\Bee\Bee_UI\bin\Newtonsoft.Json.dll
+C:\Users\Yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\BEE.Core.dll
+C:\Users\Yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\Newtonsoft.Json.dll
+C:\Users\Yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\BEE.Core.pdb
+C:\Users\Yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\Bee_UI\bin\BEE.Core.dll.config

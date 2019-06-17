@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewBag.Title = "Koloni Kayıt";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Html.Raw(TempData["msg"])
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" style="background:#f2d721;padding-top:10px;padding-bottom:10px; border-radius:10px; box-shadow:gray 5px 5px 15px">
+            <form method="post">
+                <div class="form-group">
+                    <label for="Kovan_ID">Kovan ID<span class="text-danger">*</span></label>
+                    <input type="number" name="KovanId" parsley-trigger="change" required
+                           placeholder="Kovan ID giriniz." class="form-control" id="kovanId">
+                    <div class="form-group text-right m-t-10">
+                        <button type="button" class="btn btn-primary waves-effect waves-light" onclick="qrkod()">Kodu Tara</button>
+                    </div>
+                    <div id="qrkod" style="display:none;">
+                    </div>
+                    <script>
+                        var kontrol = 0;
+                        function qrkod() {
+                            document.getElementById("qrkod").setAttribute("style", "display:block; position:absolute;width:300px;height:500px;");
+                            document.getElementById("qrkod").innerHTML = "<iframe id='frame' src='/home/QROkuma'></iframe>";
+                            kontrol = 0;
+
+                        var myVar = setInterval(myTimer, 100);
+                        function myTimer() {
+                            if (kontrol == 0) {
+
+                                var iframe = document.getElementById('frame');
+                                var innerDoc = (iframe.contentDocument) ? iframe.contentDocument : iframe.contentWindow.document;
+                                if (innerDoc.getElementById("qrkodgelen").value != "") {
+                                    kontrol = 1;
+                                    document.getElementsByName("KovanId")[0].value = innerDoc.getElementById("qrkodgelen").value;
+                                    document.getElementById("qrkod").setAttribute("style", "display:none;");
+                                    document.getElementById("qrkod").innerHTML = "";
+                                }
+                            }
+                            }
+                        }
+                    </script>
+                </div>
+                <div class="form-group">
+                    <label for="Yer_GrupNo">Yer Grup No<span class="text-danger">*</span></label>
+                    <input type="text" name="YerGrupNo" parsley-trigger="change" required
+                           placeholder="Yer grup no giriniz." class="form-control" id="YerGrupNo">
+                </div>
+                <div class="form-group">
+                    <label for="Yer_SiraNo">Yer Sıra No<span class="text-danger">*</span></label>
+                    <input type="number" name="YerSiraNo" parsley-trigger="change" required
+                           placeholder="Yer sıra no giriniz." class="form-control" id="YerSiraNo">
+                </div>
+                <div class="form-group">
+                    <label for="Ana_Cinsi">Ana Cinsi<span class="text-danger">*</span></label>
+                    <select class="form-control" name="AnaCins" required id="AnaCins">
+                        <option>Seçiniz</option>
+                        @Html.Raw(TempData["CinsAdi"])
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Ana_Yili">Ana Yılı<span class="text-danger">*</span></label>
+                    <input type="number" name="AnaYil"  pattern="[0-9]{4}" parsley-trigger="change" required
+                           placeholder="Ana yılını giriniz." class="form-control" id="AnaYil">
+                </div>
+                <div class="form-group">
+                    <label for="Kume">Küme<span class="text-danger">*</span></label>
+                    <select class="form-control" name="Kume" required id="Kume">
+                        <option>Girilmedi</option>
+                        <option>Kontrol</option>
+                        <option>Deneme</option>
+                    </select>
+                </div>
+                <div class="form-group text-right m-b-0">
+                    <button class="btn btn-primary waves-effect waves-light" type="submit">
+                        Kaydet
+                    </button>
+                    <button type="reset" class="btn btn-default waves-effect m-l-5">
+                        İptal
+                    </button>
+                </div>
+
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>

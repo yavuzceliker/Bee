@@ -1,0 +1,636 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="~/assets/images/favicon.ico">
+    <!-- App title -->
+    <title>Bee - @ViewBag.Title</title>
+
+    <!-- -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="~/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+    <link href="~/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+    <link href="~/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="~/plugins/clockpicker/css/bootstrap-clockpicker.min.css" rel="stylesheet">
+    <link href="~/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- App css -->
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/core.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/components.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/pages.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/plugins/switchery/switchery.min.css">
+
+    <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="~/assets/js/modernizr.min.js"></script>
+
+</head>
+
+
+<body class="fixed-left">
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        <!-- Top Bar Start -->
+        <div class="topbar">
+
+            <!-- LOGO -->
+            <div class="topbar-left">
+                <a href="/home/index" class="logo"><img src="~/assets/images/bee.png" width="35" height="35" /><span>Be<span>e</span></span></a>
+                <!-- Image logo -->
+                <!--<a href="index.html" class="logo">-->
+                <!--<span>-->
+                <!--<img src="~/assets/images/logo.png" alt="" height="30">-->
+                <!--</span>-->
+                <!--<i>-->
+                <!--<img src="~/assets/images/logo_sm.png" alt="" height="28">-->
+                <!--</i>-->
+                <!--</a>-->
+            </div>
+
+            <!-- Button mobile view to collapse sidebar menu -->
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+
+                    <!-- Navbar-left -->
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <button class="button-menu-mobile open-left waves-effect">
+                                <i class="mdi mdi-menu"></i>
+                            </button>
+                        </li>
+
+                    </ul>
+
+                    <!-- Right(Notification) -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" class="right-menu-item dropdown-toggle" data-toggle="dropdown">
+                                <i class="mdi mdi-bell"></i>
+                                <span class="badge up bg-success">4</span>
+                            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right dropdown-lg user-list notify-list">
+                                <li>
+                                    <h5>Notifications</h5>
+                                </li>
+                                <li>
+                                    <a href="#" class="user-list-item">
+                                        <div class="icon bg-info">
+                                            <i class="mdi mdi-account"></i>
+                                        </div>
+                                        <div class="user-desc">
+                                            <span class="name">New Signup</span>
+                                            <span class="time">5 hours ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="user-list-item">
+                                        <div class="icon bg-danger">
+                                            <i class="mdi mdi-comment"></i>
+                                        </div>
+                                        <div class="user-desc">
+                                            <span class="name">New Message received</span>
+                                            <span class="time">1 day ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="user-list-item">
+                                        <div class="icon bg-warning">
+                                            <i class="mdi mdi-settings"></i>
+                                        </div>
+                                        <div class="user-desc">
+                                            <span class="name">Settings</span>
+                                            <span class="time">1 day ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="all-msgs text-center">
+                                    <p class="m-0"><a href="#">See all Notification</a></p>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="right-menu-item dropdown-toggle" data-toggle="dropdown">
+                                <i class="mdi mdi-email"></i>
+                                <span class="badge up bg-danger">8</span>
+                            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right dropdown-lg user-list notify-list">
+                                <li>
+                                    <h5>Messages</h5>
+                                </li>
+                                <li>
+                                    <a href="#" class="user-list-item">
+                                        <div class="avatar">
+                                            <img src="~/assets/images/users/avatar-2.jpg" alt="">
+                                        </div>
+                                        <div class="user-desc">
+                                            <span class="name">Patricia Beach</span>
+                                            <span class="desc">There are new settings available</span>
+                                            <span class="time">2 hours ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="user-list-item">
+                                        <div class="avatar">
+                                            <img src="~/assets/images/users/avatar-3.jpg" alt="">
+                                        </div>
+                                        <div class="user-desc">
+                                            <span class="name">Connie Lucas</span>
+                                            <span class="desc">There are new settings available</span>
+                                            <span class="time">2 hours ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="user-list-item">
+                                        <div class="avatar">
+                                            <img src="~/assets/images/users/avatar-4.jpg" alt="">
+                                        </div>
+                                        <div class="user-desc">
+                                            <span class="name">Margaret Becker</span>
+                                            <span class="desc">There are new settings available</span>
+                                            <span class="time">2 hours ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="all-msgs text-center">
+                                    <p class="m-0"><a href="#">See all Messages</a></p>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void(0);" class="right-bar-toggle right-menu-item">
+                                <i class="mdi mdi-settings"></i>
+                            </a>
+                        </li>
+
+                        <li class="dropdown user-box">
+                            <a href="" class="dropdown-toggle waves-effect user-link" data-toggle="dropdown" aria-expanded="true">
+                                <img src="~/assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle user-img">
+                            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right user-list notify-list">
+                                <li>
+                                    <h5>Hi, John</h5>
+                                </li>
+                                <li><a href="javascript:void(0)"><i class="ti-user m-r-5"></i> Profile</a></li>
+                                <li><a href="javascript:void(0)"><i class="ti-settings m-r-5"></i> Settings</a></li>
+                                <li><a href="javascript:void(0)"><i class="ti-lock m-r-5"></i> Lock screen</a></li>
+                                <li><a href="javascript:void(0)"><i class="ti-power-off m-r-5"></i> Logout</a></li>
+                            </ul>
+                        </li>
+
+                    </ul> <!-- end navbar-right -->
+
+                </div><!-- end container -->
+            </div><!-- end navbar -->
+        </div>
+        <!-- Top Bar End -->
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left side-menu">
+            <div class="sidebar-inner slimscrollleft">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <ul>
+                        <li class="menu-title">Navigasyon</li>
+
+                        <li class="has_sub">
+                            <a href="javascript:void(0);">
+                                <img src="~/assets/images/bee.png" width="20" height="20" /><span> Koloni </span><span class="menu-arrow"></span>
+                            </a>
+                            <ul class="list-unstyled">
+                                <li><a href="/Koloni/Koloniler">Koloniler</a></li>
+                                <li><a href="/Koloni/KoloniKayit">Koloni Kayıt</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has_sub">
+                            <a href="javascript:void(0);" class="waves-effect"><img src="~/assets/images/bee.png" width="20" height="20" /> <span> Muayene & Uyg.lar </span> <span class="menu-arrow"></span></a>
+                            <ul class="list-unstyled">
+                                <li><a href="/MuayeneUygulama/MuayeneUygulamaGoster">Muayene/Uyg. Göster</a></li>
+                                <li><a href="/MuayeneUygulama/MuayeneUygulamaEkle">Muayene/Uyg. Ekle</a></li>
+                            </ul>
+                        </li>
+                        <li class="has_sub">
+                            <a href="javascript:void(0);" class="waves-effect"><img src="~/assets/images/bee.png" width="20" height="20" /><span> Kullanıcı </span> <span class="menu-arrow"></span></a>
+                            <ul class="list-unstyled">
+                                <li><a href="/Kullanici/Kullanicilar">Kullanıcılar</a></li>
+                                <li><a href="/Kullanici/KullaniciEkle">Kullanıcı Ekle</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Sidebar -->
+                <div class="clearfix"></div>
+
+                <div class="help-box">
+                    <h5 class="text-muted m-t-0">Yardım için ?</h5>
+                    <p class=""><span class="text-custom">Email:</span> <br /> yavuz.celiker@hotmail.com<br />16008116007@ogr.bozok.edu.tr</p>
+                    <p class="m-b-0"><span class="text-custom">Telefon:</span> <br /> (+90) 554 870 7805<br /> (+90) 555 181 7319</p>
+                </div>
+
+            </div>
+            <!-- Sidebar -left -->
+
+        </div>
+        <!-- Left Sidebar End -->
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="content-page">
+            <!-- Start content -->
+            <div class="content">
+                <style>
+                    #tara {
+                        position: fixed;
+                        z-index: 10000;
+                        background: #337ab7;
+                        cursor: pointer;
+                        border-radius: 40px;
+                        padding: 15px;
+                        width: 80px;
+                        height: 80px;
+                        box-shadow:gray 4px 4px 5px;
+                    }
+                    #qrkod
+                    {
+                        position:fixed;
+                        z-index:10000;
+                        width:200px;
+                        height:200px;
+                        margin-top:calc(50vh - 100px);
+                        margin-left:calc(50vw - 100px);
+                    }
+                    #frame{width:200px;
+                           height:200px;
+                    }
+                    #kovan{
+                        display:none;
+                        position:fixed;
+                        z-index:10000;
+                        box-shadow:gray 5px 5px 5px;
+                        border:2px solid gray;
+
+                    }
+                </style>
+                <div id="qrkod" style="display:none;">
+                </div>
+                <script>
+                    var sayac = false;
+                    var kontrol = 0;
+                    function tara() {
+                        if (document.getElementById("qrkod").getAttribute("style") == "display:none;") {
+                            document.getElementById("qrkod").setAttribute("style", "display:block;");
+                            document.getElementById("qrkod").innerHTML = "<iframe id='frame' src='/home/QROkuma'></iframe>";
+                            kontrol = 0;
+                            sayac = true;
+                            var myVar = setInterval(myTimer, 100);
+                            function myTimer() {
+                                if (kontrol == 0) {
+                                    var bol = document.getElementById('frame').contentWindow.location.toString().split("=");
+                                    if (bol[1] != undefined) {
+                                        kontrol = 1;
+                                        document.getElementById("qrkod").setAttribute("style", "display:none;");
+                                        document.getElementById("qrkod").innerHTML = "";
+                                        document.getElementById("kovan").setAttribute("style", "display:block; margin-left:" + ((this.innerWidth <= 768 ? 50 : (this.innerWidth > 768 && this.innerWidth <= 1024 ? 200 : (this.innerWidth > 1024 ? 350 : "")))) + "px; width:" + ((this.innerWidth <= 768 ? this.innerWidth / 1.4 : (this.innerWidth > 768 && this.innerWidth <= 1024 ? this.innerWidth / 2 : (this.innerWidth > 1024 ? this.innerWidth / 5 : "")))) + "px;");
+                                    }
+                                }
+                            }
+                        }
+                        else {
+                            document.getElementById("qrkod").setAttribute("style", "display:none;");
+                            document.getElementById("qrkod").innerHTML = "";
+                            kontrol = 1;
+                        }
+                    }
+                        function kapat()
+                        {
+                            document.getElementById("kovan").setAttribute("style", "display:none;");
+                            document.getElementById("kovanim").setAttribute("style", "display:none;");
+                        }
+                </script>
+
+
+                
+
+                <div class="col-md-4 box card-box" id="kovan">
+                    <div id="carousel-example-captions1" data-ride="carousel" class="carousel slide">
+                        <div role="listbox" class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-md-12" style="margin-bottom:10px;">
+                                    <h1 style="font-size:30px;text-align:center; width:100%;">A1
+                                        <img onclick="kapat()" style="float:right;" src="~/assets/images/close.png" width="30" /></h1>
+                                </div>
+                                <div class="col-md-12">
+                                    <img id="kovanpng" style="width:90%;" src="~/assets/images/kovan.png" />
+                                    <h3 class="portlet-title">Kovan ID:@TempData["KovanID"]</h3>
+                                    <h3 class="portlet-title">Yer Grup No:@TempData["GrupNo"]</h3>
+                                    <h3 class="portlet-title">Yer Sıra No:@TempData["SıraNo"]</h3>
+                                    <h3 class="portlet-title">Küme:@TempData["Kume"]</h3>
+                                    <h3 class="portlet-title">Son Bal:@TempData["SonBal"]</h3>
+                                    <h3 class="portlet-title">Puan:@TempData["Puan"]</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div id="tara" onclick="tara()"><img src="~/assets/images/tara.png" width="50" height="50" /></div>
+                    <script>
+                        document.getElementById("tara").setAttribute("style", "margin-top:" + (this.innerHeight - 170) + "px; margin-left:" + (this.innerWidth - (this.innerWidth <= 768 ? 100 : (this.innerWidth <= 1024 ? 180 : (this.innerWidth > 1024 ? 340 : "")))) + "px;");
+                        
+                    </script>
+                <div class="container">
+                    <div class="row">
+
+                        <br />
+                        <div class="col-md-12">
+                            <span id="kalangoster"></span><br />
+                        </div>
+                        <div class="col-md-12">
+
+                            <div class="progress progress-lg m-b-5" style="width:24%;margin-right:1%;float:left; color:gray;">
+                                <span>İlkbahar Dönemi</span>
+                            </div>
+                            <div class="progress progress-lg m-b-5" style="width:24%;margin-right:1%;float:left; color:gray;">
+                                <span>Bal Oğul Dönemi</span>
+                            </div>
+                            <div class="progress progress-lg m-b-5" style="width:24%;margin-right:1%;float:left; color:gray;">
+                                <span>Hasat Dönemi</span>
+                            </div>
+                            <div class="progress progress-lg m-b-5" style="width:25%;float:left; color:gray;">
+                                <span>Sonbahar Dönemi</span>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+
+                            <div class="progress progress-lg m-b-5" style="width:24%;margin-right:1%;float:left; color:gray;">
+                                <div id="ilkbahar" class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                    <span>0% Tamamlandı</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-lg m-b-5" style="width:24%;margin-right:1%;float:left; color:gray;">
+                                <div id="bal" class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                    <span>0% Tamamlandı</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-lg m-b-5" style="width:24%;margin-right:1%;float:left; color:gray;">
+                                <div id="hasat" class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                    <span>0% Tamamlandı</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-lg m-b-5" style="width:25%;float:left; color:gray;">
+                                <div id="sonbahar" class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                    <span>0% Tamamlandı</span>
+                                </div>
+                            </div>
+                        </div>
+                        <script type="text/javascript">
+
+                            var bugun = new Date(Date.now());
+                            bugun = new Date(bugun.getFullYear(),bugun.getMonth(),bugun.getDay());
+                            var ilkbaharbasla = new Date(bugun.getFullYear(), 3, 15);
+                            var ilkbaharbitir = new Date(bugun.getFullYear(), 5, 25);
+                            var balbasla = new Date(bugun.getFullYear(), 5, 26);
+                            var balbitir = new Date(bugun.getFullYear(), 9, 25);
+                            var hasatbasla = new Date(bugun.getFullYear(), 9, 26);
+                            var hasatbitir = new Date(bugun.getFullYear(), 10, 10);
+                            var bakimbasla = new Date(bugun.getFullYear(), 10, 11);
+                            var bakimbitir = new Date(bugun.getFullYear(), 11, 1);
+                            var gun;
+                            var kalangun;
+                            var ortalama;
+                            if (bugun >= ilkbaharbasla && bugun <= ilkbaharbitir) {
+
+                                gun = ((ilkbaharbitir - ilkbaharbasla) / 1000 / 60 / 60 / 24);
+                                kalangun = (ilkbaharbitir - bugun) / 1000 / 60 / 60 / 24;
+                                ortalama = ((gun - kalangun) * 100) / gun;  
+                                document.getElementById("ilkbahar").setAttribute("aria-valuenow", ortalama);
+                                document.getElementById("ilkbahar").setAttribute("style", "width:" + ortalama + "%;");
+                                document.getElementById("ilkbahar").innerHTML = "<span>%" + ortalama.toFixed(2) + " Tamamlandı.</span>";
+                                document.getElementById("kalangoster").innerText = "Dönemin bitmesine "+kalangun+" gün kaldı. Sonraki dönem bal-oğul dönemi.";
+                            }
+                            else if(bugun>ilkbaharbitir)
+                            {
+                                document.getElementById("ilkbahar").setAttribute("aria-valuenow", "100");
+                                document.getElementById("ilkbahar").setAttribute("style", "width:100%;");
+                                document.getElementById("ilkbahar").innerHTML = "<span>%100 Tamamlandı.</span>";
+                            }
+
+
+
+                            if (bugun >= balbasla && bugun <= balbitir) {
+
+                                gun = ((balbitir - balbasla) / 1000 / 60 / 60 / 24);
+                                kalangun = (balbitir - bugun) / 1000 / 60 / 60 / 24;
+                                ortalama = ((gun - kalangun) * 100) / gun;
+                                document.getElementById("bal").setAttribute("aria-valuenow", ortalama);
+                                document.getElementById("bal").setAttribute("style", "width:" + ortalama + "%;");
+                                document.getElementById("bal").innerHTML = "<span>%" + ortalama.toFixed(2) + " Tamamlandı.</span>";
+                                document.getElementById("kalangoster").innerText = "Dönemin bitmesine " + kalangun + " gün kaldı. Sonraki dönem hasat dönemi.";
+                            }
+                            else if (bugun > balbitir)
+                            {
+                                document.getElementById("bal").setAttribute("aria-valuenow", "100");
+                                document.getElementById("bal").setAttribute("style", "width:100%;");
+                                document.getElementById("bal").innerHTML = "<span>%100 Tamamlandı.</span>";
+                            }
+
+                            if (bugun >= hasatbasla && bugun <= hasatbitir) {
+
+                                gun = ((hasatbitir - hasatbasla) / 1000 / 60 / 60 / 24);
+                                kalangun = (hasatbitir - bugun) / 1000 / 60 / 60 / 24;
+                                ortalama = ((gun - kalangun) * 100) / gun;
+                                document.getElementById("hasat").setAttribute("aria-valuenow", ortalama);
+                                document.getElementById("hasat").setAttribute("style", "width:" + ortalama + "%;");
+                                document.getElementById("hasat").innerHTML = "<span>%" + ortalama.toFixed(2) + " Tamamlandı.</span>";
+                                document.getElementById("kalangoster").innerText = "Dönemin bitmesine " + kalangun + " gün kaldı. Sonraki dönem sonbahar dönemi.";
+                            }
+                            else if (bugun > hasatbitir)
+                            {
+                                document.getElementById("hasat").setAttribute("aria-valuenow", "100");
+                                document.getElementById("hasat").setAttribute("style", "width:100%;");
+                                document.getElementById("hasat").innerHTML = "<span>%100 Tamamlandı.</span>";
+                            }
+
+                            if (bugun >= bakimbasla && bugun <= bakimbitir) {
+
+                                gun = ((bakimbitir - bakimbasla) / 1000 / 60 / 60 / 24);
+                                kalangun = (bakimbitir - bugun) / 1000 / 60 / 60 / 24;
+                                ortalama = ((gun - kalangun) * 100) / gun;
+                                document.getElementById("sonbahar").setAttribute("aria-valuenow", ortalama);
+                                document.getElementById("sonbahar").setAttribute("style", "width:" + ortalama + "%;");
+                                document.getElementById("sonbahar").innerHTML = "<span>%" + ortalama.toFixed(2) + " Tamamlandı.</span>";
+                                document.getElementById("kalangoster").innerText = "Dönemin bitmesine " + kalangun + " gün kaldı. Sonraki dönem ilkbahar dönemi.";
+                            }
+                            else if (bugun > bakimbitir)
+                            {
+                                document.getElementById("sonbahar").setAttribute("aria-valuenow", "100");
+                                document.getElementById("sonbahar").setAttribute("style", "width:100%;");
+                                document.getElementById("sonbahar").innerHTML = "<span>%100 Tamamlandı.</span>";
+                            }
+
+
+
+
+
+
+
+
+
+                        </script>
+                        <div class="col-xs-12">
+                            <div class="page-title-box">
+                                <h4 class="page-title">@ViewBag.Title </h4>
+                                <ol class="breadcrumb p-0 m-0">
+                                    <li>
+                                        <a href="#">Bee</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Koloni </a>
+                                    </li>
+                                    <li class="active">
+                                        Koloni Kayıt
+                                    </li>
+                                </ol>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                    <div class="row">
+                        @RenderBody()
+                        
+                    </div>
+                    <!-- end row -->
+
+                </div> <!-- container -->
+
+            </div> <!-- content -->
+
+            <footer class="footer text-right">
+                2018 © Bee.
+            </footer>
+
+        </div>
+
+
+        <!-- ============================================================== -->
+        <!-- End Right content here -->
+        <!-- ============================================================== -->
+        <!-- Right Sidebar -->
+        <div class="side-bar right-bar">
+            <a href="javascript:void(0);" class="right-bar-toggle">
+                <i class="mdi mdi-close-circle-outline"></i>
+            </a>
+            <h4 class="">Settings</h4>
+            <div class="setting-list nicescroll">
+                <div class="row m-t-20">
+                    <div class="col-xs-8">
+                        <h5 class="m-0">Notifications</h5>
+                        <p class="text-muted m-b-0"><small>Do you need them?</small></p>
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        <input type="checkbox" checked data-plugin="switchery" data-color="#7fc1fc" data-size="small" />
+                    </div>
+                </div>
+                <div class="row m-t-20">
+                    <div class="col-xs-8">
+                        <h5 class="m-0">API Access</h5>
+                        <p class="m-b-0 text-muted"><small>Enable/Disable access</small></p>
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        <input type="checkbox" checked data-plugin="switchery" data-color="#7fc1fc" data-size="small" />
+                    </div>
+                </div>
+
+                <div class="row m-t-20">
+                    <div class="col-xs-8">
+                        <h5 class="m-0">Auto Updates</h5>
+                        <p class="m-b-0 text-muted"><small>Keep up to date</small></p>
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        <input type="checkbox" checked data-plugin="switchery" data-color="#7fc1fc" data-size="small" />
+                    </div>
+                </div>
+
+                <div class="row m-t-20">
+                    <div class="col-xs-8">
+                        <h5 class="m-0">Online Status</h5>
+                        <p class="m-b-0 text-muted"><small>Show your status to all</small></p>
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        <input type="checkbox" checked data-plugin="switchery" data-color="#7fc1fc" data-size="small" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Right-bar -->
+
+    </div>
+    <!-- END wrapper -->
+
+
+
+    <script>
+            var resizefunc = [];
+    </script>
+
+    <!-- jQuery  -->
+    <script src="~/assets/js/jquery.min.js"></script>
+    <script src="~/assets/js/app.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/detect.js"></script>
+    <script src="~/assets/js/fastclick.js"></script>
+    <script src="~/assets/js/jquery.blockUI.js"></script>
+    <script src="~/assets/js/waves.js"></script>
+    <script src="~/assets/js/jquery.slimscroll.js"></script>
+    <script src="~/assets/js/jquery.scrollTo.min.js"></script>
+    <script src="~/plugins/switchery/switchery.min.js"></script>
+
+    <script src="~/plugins/moment/moment.js"></script>
+    <script src="~/plugins/timepicker/bootstrap-timepicker.js"></script>
+    <script src="~/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+    <script src="~/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="~/plugins/clockpicker/js/bootstrap-clockpicker.min.js"></script>
+    <script src="~/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- App js -->
+    <script src="~/assets/js/jquery.core.js"></script>
+    <script src="~/assets/js/jquery.app.js"></script>
+
+    <!-- Init js -->
+    <script src="~/assets/pages/jquery.form-pickers.init.js"></script>
+
+
+</body>
+</html>

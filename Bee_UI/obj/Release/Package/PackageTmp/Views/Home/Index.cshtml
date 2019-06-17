@@ -1,0 +1,236 @@
+﻿
+@{
+    ViewBag.Title = "Anasayfa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .col-md-6 {
+        text-align: center;
+    }
+
+    #menum li {
+        width: 33%;
+        text-align: center;
+        float: left;
+    }
+
+    #menum img {
+        width: 70%;
+    }
+
+    #menum a {
+        padding: 0;
+    }
+
+        #menum a:focus {
+            background: none;
+        }
+
+    .col-md-4 {
+        margin-bottom: 10px;
+    }
+
+    #detay {
+        margin: 0px auto;
+        position: fixed;
+        left: 50%;
+        top: 50vh;
+        margin-top: calc((50vh/-2));
+        margin-left: calc(50%/-2);
+    }
+
+    @@media(max-width:768px) {
+        #detay {
+            margin: 0px auto;
+            width: 100%;
+            left: 0;
+            top: 20vh;
+        }
+    }
+</style>
+<div class="col-md-12">
+    @Html.Raw(TempData["Koloni"])
+    <div class="col-md-4 box card-box">
+        <div id="carousel-example-captions12" data-ride="carousel" class="carousel slide">
+            <div role="listbox" class="carousel-inner">
+                <div class="item active">
+                    <div class="col-md-12" style="margin-bottom:10px;">
+                        <ul class="nav" id="menum" style="width:100%;">
+                            <li><a href="#carousel-example-captions12" data-slide="prev"><img style="float:left; width:60%;" src="~/assets/images/icons/undo.svg" /></a></li>
+                            <li><h1 style="font-size:20px; line-height:60px;">A1/A20</h1></li>
+                            <li><a href="#carousel-example-captions12" data-slide="next"><img style="float:right; width:60%;" src="~/assets/images/icons/redo.svg" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12" onclick="goster('A1')">
+                        <img src="~/assets/images/kovan.png" style="width:50%; margin-left:25%;" />
+                        <h3 class="portlet-title">Kovan ID:123456789</h3>
+                        <h3 class="portlet-title">Yer Grup No:A</h3>
+                        <h3 class="portlet-title">Yer Sıra No:1</h3>
+                        <h3 class="portlet-title">Küme:Kontrol</h3>
+                        <h3 class="portlet-title">Son Bal:12500</h3>
+                        <h3 class="portlet-title">Puan:85%</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-md-12" style="margin-bottom:10px;">
+                        <ul class="nav" id="menum" style="width:100%;">
+                            <li><a href="#carousel-example-captions12" data-slide="prev"><img style="float:left; width:60%;" src="~/assets/images/icons/undo.svg" /></a></li>
+                            <li><h1 style="font-size:20px; line-height:60px;">A2/A20</h1></li>
+                            <li><a href="#carousel-example-captions12" data-slide="next"><img style="float:right; width:60%;" src="~/assets/images/icons/redo.svg" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12" onclick="goster('A2')">
+                        <img src="~/assets/images/kovan.png" style="width:50%; margin-left:25%;" />
+                        <h3 class="portlet-title">Kovan ID:123456788</h3>
+                        <h3 class="portlet-title">Yer Grup No:A</h3>
+                        <h3 class="portlet-title">Yer Sıra No:2</h3>
+                        <h3 class="portlet-title">Küme:Deneme</h3>
+                        <h3 class="portlet-title">Son Bal:10320</h3>
+                        <h3 class="portlet-title">Puan:76%</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-md-12" style="margin-bottom:10px;">
+                        <ul class="nav" id="menum" style="width:100%;">
+                            <li><a href="#carousel-example-captions12" data-slide="prev"><img style="float:left; width:60%;" src="~/assets/images/icons/undo.svg" /></a></li>
+                            <li><h1 style="font-size:20px; line-height:60px;">A3/A20</h1></li>
+                            <li><a href="#carousel-example-captions12" data-slide="next"><img style="float:right; width:60%;" src="~/assets/images/icons/redo.svg" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12" onclick="goster('A3')">
+                        <img src="~/assets/images/kovan.png" style="width:50%; margin-left:25%;" />
+                        <h3 class="portlet-title">Kovan ID:123456787</h3>
+                        <h3 class="portlet-title">Yer Grup No:A</h3>
+                        <h3 class="portlet-title">Yer Sıra No:3</h3>
+                        <h3 class="portlet-title">Küme:Deneme</h3>
+                        <h3 class="portlet-title">Son Bal:12542</h3>
+                        <h3 class="portlet-title">Puan:86%</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-md-12" style="margin-bottom:10px;">
+                        <ul class="nav" id="menum" style="width:100%;">
+                            <li><a href="#carousel-example-captions12" data-slide="prev"><img style="float:left; width:60%;" src="~/assets/images/icons/undo.svg" /></a></li>
+                            <li><h1 style="font-size:20px; line-height:60px;">A4/A20</h1></li>
+                            <li><a href="#carousel-example-captions12" data-slide="next"><img style="float:right; width:60%;" src="~/assets/images/icons/redo.svg" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <img src="~/assets/images/kovan.png" style="width:50%; margin-left:25%;" />
+                        <h3 class="portlet-title">Kovan ID:123456785</h3>
+                        <h3 class="portlet-title">Yer Grup No:A</h3>
+                        <h3 class="portlet-title">Yer Sıra No:4</h3>
+                        <h3 class="portlet-title">Küme:Deneme</h3>
+                        <h3 class="portlet-title">Son Bal:15542</h3>
+                        <h3 class="portlet-title">Puan:96%</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-md-12" style="margin-bottom:10px;">
+                        <ul class="nav" id="menum" style="width:100%;">
+                            <li><a href="#carousel-example-captions12" data-slide="prev"><img style="float:left; width:60%;" src="~/assets/images/icons/undo.svg" /></a></li>
+                            <li><h1 style="font-size:20px; line-height:60px;">A5/A20</h1></li>
+                            <li><a href="#carousel-example-captions12" data-slide="next"><img style="float:right; width:60%;" src="~/assets/images/icons/redo.svg" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <img src="~/assets/images/kovan.png" style="width:50%; margin-left:25%;" />
+                        <h3 class="portlet-title">Kovan ID:123456783</h3>
+                        <h3 class="portlet-title">Yer Grup No:A</h3>
+                        <h3 class="portlet-title">Yer Sıra No:5</h3>
+                        <h3 class="portlet-title">Küme:Kontrol</h3>
+                        <h3 class="portlet-title">Son Bal:9542</h3>
+                        <h3 class="portlet-title">Puan:71%</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="col-md-6" id="detay" style="visibility:hidden;">
+        <div class="card-box">
+            <img onclick="document.getElementById('detay').setAttribute('style', 'visibility:hidden;')" src="~/assets/images/close.png" style="float:right; width:3%;" />
+            <h4 class="header-title m-t-0 m-b-30">A15 - KONTROL</h4>
+
+            <div class="tabs-vertical-env">
+                <ul class="nav tabs-vertical">
+                    <li class="active">
+                        <a href="#v-home" data-toggle="tab" aria-expanded="true">Kovan Bilgileri</a>
+                    </li>
+                    <li class="">
+                        <a href="#v-profile" data-toggle="tab" aria-expanded="false">Son Muayene</a>
+                    </li>
+                    <li class="">
+                        <a href="#v-messages" data-toggle="tab" aria-expanded="false">Son Uygulama</a>
+                    </li>
+                    <li class="">
+                        <a href="#v-settings" data-toggle="tab" aria-expanded="false">Son İş Planı</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content" style="text-align:left;">
+                    <div class="tab-pane active" id="v-home">
+                        <p>2010 Doğum, Kafkas cinsi ana</p>
+                        <p>Mevcut Durumu: 6/10</p>
+                        <p>Besin Durumu: Aç</p>
+                        <p>Alınan Son Bal: 16105gr.</p>
+                        <p>Tüm Bal: 20023gr.</p>
+                        <p>Puan:43/100</p>
+                    </div>
+                    <div class="tab-pane" id="v-profile">
+                        <p>20 Ağustos 2018 Saat: 09:50</p>
+                        <p>Ana Arı: Mecvut</p>
+                        <p>Besin Durumu: Aç</p>
+                        <p>Fiziksel Sorun: Uçuş tahtası kırık.</p>
+                        <p>Çerçeve sayısı tam</p>
+                        <p>Sağlıklı hastalık yok</p>
+                        <p>Parazit yok</p>
+                        <p>Zararlı sorunu yok</p>
+                        <p>Ana memesi yok</p>
+                        <p>Oğul yok</p>
+                        <p>Yalancı ana yok</p>
+                        <p>Balı yok</p>
+                    </div>
+                    <div class="tab-pane" id="v-messages">
+                        <p>20 Ağustos 2018 Saat: 09:50</p>
+                        <p>Ana Arı: Mecvut</p>
+                        <p>Besin Durumu: Aç</p>
+                        <p>Fiziksel Sorun: Uçuş tahtası kırık.</p>
+                        <p>Çerçeve sayısı tam</p>
+                        <p>Sağlıklı hastalık yok</p>
+                        <p>Parazit yok</p>
+                        <p>Zararlı sorunu yok</p>
+                        <p>Ana memesi yok</p>
+                        <p>Oğul yok</p>
+                        <p>Yalancı ana yok</p>
+                        <p>Balı yok</p>
+                    </div>
+                    <div class="tab-pane" id="v-settings">
+
+                        <p>20 Ağustos 2018 Saat: 09:50</p>
+                        <p>Ana Arı: Mecvut</p>
+                        <p>Besin Durumu: Aç</p>
+                        <p>Fiziksel Sorun: Uçuş tahtası kırık.</p>
+                        <p>Çerçeve sayısı tam</p>
+                        <p>Sağlıklı hastalık yok</p>
+                        <p>Parazit yok</p>
+                        <p>Zararlı sorunu yok</p>
+                        <p>Ana memesi yok</p>
+                        <p>Oğul yok</p>
+                        <p>Yalancı ana yok</p>
+                        <p>Balı yok</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function goster(kovan) {
+            document.getElementById("detay").setAttribute("style", "visibility:visible;");
+        }
+    </script>
+</div>
+

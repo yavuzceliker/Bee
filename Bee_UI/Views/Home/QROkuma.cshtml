@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+
+<html lang="tr">
+
+<head>
+
+    <!-- header begin -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '/assets/qrokuma/gtm5445.html?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K7ZP29');
+    </script>
+
+
+    <style>
+
+  @@media print {
+  #footer .container
+  {
+    display:none;
+  }
+
+  #header .container
+  {
+    display:none;
+  }
+}
+
+a{
+   color: #7c943b;
+ }
+
+    </style>
+
+    <!-- header end -->
+
+    <script languange="JavaScript">
+        if (typeof module === 'object') { window.module = module; module = undefined; }
+    </script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>QROkuma</title>
+
+    <!-- Required Stylesheets -->
+    <link type="text/css" rel="stylesheet" href="~/Assets/qrokuma/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Assets/qrokuma/css/bootstrap-vue.css" />
+
+    <!-- Required scripts -->
+    <script src="~/Assets/qrokuma/js/vue.min.js"></script>
+    <script src="~/Assets/qrokuma/js/vuex.min.js"></script>
+    <script src="~/Assets/qrokuma/js/polyfill.min.js"></script>
+    <script src="~/Assets/qrokuma/js/bootstrap-vue.js"></script>
+    <script src="~/Assets/qrokuma/js/es6-promise.auto.js"></script>
+    <script src="~/Assets/qrokuma/js/moment.min.js"></script>
+    <style>
+        body{
+            overflow:hidden;
+        }
+        .card-body{
+            padding:0;
+        }
+        .mb-2, .my-2 {
+            margin:0;
+        }
+
+        .mt-2, .my-2 {
+            margin: 0;
+        }
+
+        .ml-1, .mx-1 {
+            margin: 0;
+        }
+
+        .mr-1, .mx-1 {
+            margin: 0;
+        }
+        video{
+            width:100%;
+        }
+        .drawingBuffer
+        {display:none;}
+        .controls {
+            display: none;
+        }
+    #ackapabuton{
+        position:absolute;
+        right:10px;
+        top:10px;
+        z-index:10000;
+        font-size:15px;
+        background-image:url(/assets/images/icons/settings.svg);
+        width:30px;
+        height:30px;
+    }
+    </style>
+</head>
+
+<body>
+
+    <!-- header body begin -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7ZP29" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <input type="button" id="ackapabuton" controls="kapalı" onclick="ackapa()" />
+    <div id="app">
+        <div>
+            <live-input></live-input>
+            <input type="hidden" name="qrkodgelen" id="qrkodgelen" />
+        </div>
+    </div>
+
+    <script src="~/Assets/qrokuma/js/adapter-latest.js"></script>
+    <script src="~/Assets/qrokuma/js/barcode-reader-lib-quagga.min.js"></script>
+    <script src="~/Assets/qrokuma/js/barcode-reader-lib-jsQR.js"></script>
+    <script src="~/Assets/qrokuma/js/barcode-reader-constants.js"></script>
+    <script src="~/Assets/qrokuma/js/barcode-reader-file-input.js"></script>
+    <script src="~/Assets/qrokuma/js/barcode-reader-live-input.js"></script>
+    <script src="~/Assets/qrokuma/js/barcode-reader-app.js"></script>
+
+
+    <script>
+        function ackapa() {
+            if (document.getElementById("ackapabuton").getAttribute("controls") == "kapalı") {
+                document.getElementsByClassName("controls")[0].setAttribute("style", "display:inline-block;");
+                document.getElementById("ackapabuton").setAttribute("controls", "açık");
+            }
+            else if (document.getElementById("ackapabuton").getAttribute("controls") == "açık") {
+
+                document.getElementsByClassName("controls")[0].setAttribute("style", "display:none;");
+                document.getElementById("ackapabuton").setAttribute("controls", "kapalı");
+            }
+        }
+    </script>
+
+</body>
+</html>

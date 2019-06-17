@@ -1,0 +1,129 @@
+C:\Users\Emre\Desktop\Bee\BEE.Data\bin\Debug\BEE.Data.dll.config
+C:\Users\Emre\Desktop\Bee\BEE.Data\bin\Debug\BEE.Data.dll
+C:\Users\Emre\Desktop\Bee\BEE.Data\bin\Debug\BEE.Data.pdb
+C:\Users\Emre\Desktop\Bee\BEE.Data\bin\Debug\EntityFramework.dll
+C:\Users\Emre\Desktop\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Emre\Desktop\Bee\BEE.Data\bin\Debug\EntityFramework.xml
+C:\Users\Emre\Desktop\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Emre\Desktop\Bee\BEE.Data\obj\Debug\Bee.Data.csprojAssemblyReference.cache
+C:\Users\Emre\Desktop\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CoreCompileInputs.cache
+C:\Users\Emre\Desktop\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CopyComplete
+C:\Users\Emre\Desktop\Bee\BEE.Data\obj\Debug\BEE.Data.dll
+C:\Users\Emre\Desktop\Bee\BEE.Data\obj\Debug\BEE.Data.pdb
+E:\Bee\BEE.Data\bin\Debug\BEE.Data.dll.config
+E:\Bee\BEE.Data\bin\Debug\BEE.Data.dll
+E:\Bee\BEE.Data\bin\Debug\BEE.Data.pdb
+E:\Bee\BEE.Data\bin\Debug\EntityFramework.dll
+E:\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Bee\BEE.Data\bin\Debug\EntityFramework.xml
+E:\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Bee\BEE.Data\obj\Debug\Bee.Data.csprojAssemblyReference.cache
+E:\Bee\BEE.Data\obj\Debug\BEE.Data.Migrations.olustur.resources
+E:\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.GenerateResource.cache
+E:\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CoreCompileInputs.cache
+E:\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CopyComplete
+E:\Bee\BEE.Data\obj\Debug\BEE.Data.dll
+E:\Bee\BEE.Data\obj\Debug\BEE.Data.pdb
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\bin\Debug\BEE.Data.dll.config
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\bin\Debug\BEE.Data.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\bin\Debug\BEE.Data.pdb
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\bin\Debug\EntityFramework.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\bin\Debug\EntityFramework.xml
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\obj\Debug\Bee.Data.csprojAssemblyReference.cache
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CoreCompileInputs.cache
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CopyComplete
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\obj\Debug\BEE.Data.dll
+C:\Users\yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\obj\Debug\BEE.Data.pdb
+F:\Bee\BEE.Data\bin\Debug\BEE.Data.dll.config
+F:\Bee\BEE.Data\bin\Debug\BEE.Data.dll
+F:\Bee\BEE.Data\bin\Debug\BEE.Data.pdb
+F:\Bee\BEE.Data\bin\Debug\EntityFramework.dll
+F:\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\Bee\BEE.Data\bin\Debug\EntityFramework.xml
+F:\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\Bee\BEE.Data\obj\Debug\Bee.Data.csprojAssemblyReference.cache
+F:\Bee\BEE.Data\obj\Debug\BEE.Data.Migrations.olustur.resources
+F:\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.GenerateResource.cache
+F:\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CoreCompileInputs.cache
+F:\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CopyComplete
+F:\Bee\BEE.Data\obj\Debug\BEE.Data.dll
+F:\Bee\BEE.Data\obj\Debug\BEE.Data.pdb
+F:\Bee\BEE.Data\obj\Debug\BEE.Data.Migrations.guncelle.resources
+E:\Yeni klasör\Bee\BEE.Data\bin\Debug\BEE.Data.dll.config
+E:\Yeni klasör\Bee\BEE.Data\bin\Debug\BEE.Data.dll
+E:\Yeni klasör\Bee\BEE.Data\bin\Debug\BEE.Data.pdb
+E:\Yeni klasör\Bee\BEE.Data\bin\Debug\EntityFramework.dll
+E:\Yeni klasör\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Yeni klasör\Bee\BEE.Data\bin\Debug\EntityFramework.xml
+E:\Yeni klasör\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Yeni klasör\Bee\BEE.Data\obj\Debug\Bee.Data.csprojAssemblyReference.cache
+E:\Yeni klasör\Bee\BEE.Data\obj\Debug\BEE.Data.Migrations.olustur.resources
+E:\Yeni klasör\Bee\BEE.Data\obj\Debug\BEE.Data.Migrations.guncelle.resources
+E:\Yeni klasör\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.GenerateResource.cache
+E:\Yeni klasör\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CoreCompileInputs.cache
+E:\Yeni klasör\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CopyComplete
+E:\Yeni klasör\Bee\BEE.Data\obj\Debug\BEE.Data.dll
+E:\Yeni klasör\Bee\BEE.Data\obj\Debug\BEE.Data.pdb
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\bin\Debug\BEE.Data.dll.config
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\bin\Debug\BEE.Data.dll
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\bin\Debug\BEE.Data.pdb
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\bin\Debug\EntityFramework.dll
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\bin\Debug\EntityFramework.xml
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\obj\Debug\Bee.Data.csprojAssemblyReference.cache
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.GenerateResource.cache
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CoreCompileInputs.cache
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.CopyComplete
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\obj\Debug\BEE.Data.dll
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\obj\Debug\BEE.Data.pdb
+C:\Users\Emre\Desktop\Bee\BEE.Data\obj\Debug\BEE.Data.Migrations.yeni.resources
+C:\Users\Emre\Desktop\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.GenerateResource.cache
+C:\Users\Yavuz\Desktop\Bee\BEE.Data\obj\Debug\BEE.Data.Migrations.yeni.resources
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\bin\Debug\BEE.Data.dll.config
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\bin\Debug\BEE.Data.dll
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\bin\Debug\BEE.Data.pdb
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\bin\Debug\EntityFramework.dll
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\bin\Debug\EntityFramework.xml
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\obj\Debug\Bee.Data.csprojAssemblyReference.cache
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\obj\Debug\Bee.Data.csproj.CoreCompileInputs.cache
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\obj\Debug\Bee.Data.csproj.CopyComplete
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\obj\Debug\BEE.Data.dll
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\obj\Debug\BEE.Data.pdb
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\bin\Debug\BEE.Data.dll.config
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\bin\Debug\BEE.Data.dll
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\bin\Debug\BEE.Data.pdb
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\bin\Debug\EntityFramework.dll
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\bin\Debug\EntityFramework.xml
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\obj\Debug\Bee.Data.csprojAssemblyReference.cache
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\obj\Debug\Bee.Data.csproj.CoreCompileInputs.cache
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\obj\Debug\Bee.Data.csproj.CopyComplete
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\obj\Debug\BEE.Data.dll
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\obj\Debug\BEE.Data.pdb
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\obj\Debug\BEE.Data.Migrations.yeni.resources
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\obj\Debug\Bee.Data.csproj.GenerateResource.cache
+C:\Users\Emre\Desktop\BeeSon\BEE.Data\obj\Debug\BEE.Data.Migrations.yeni1.resources
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\obj\Debug\BEE.Data.Migrations.Olustur.resources
+C:\Users\Yavuz\Desktop\BeeSon\BEE.Data\obj\Debug\Bee.Data.csproj.GenerateResource.cache
+D:\BeeSon\BEE.Data\bin\Debug\BEE.Data.dll.config
+D:\BeeSon\BEE.Data\bin\Debug\BEE.Data.dll
+D:\BeeSon\BEE.Data\bin\Debug\BEE.Data.pdb
+D:\BeeSon\BEE.Data\bin\Debug\EntityFramework.dll
+D:\BeeSon\BEE.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\BeeSon\BEE.Data\bin\Debug\EntityFramework.xml
+D:\BeeSon\BEE.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\BeeSon\BEE.Data\obj\Debug\Bee.Data.csprojAssemblyReference.cache
+D:\BeeSon\BEE.Data\obj\Debug\BEE.Data.Migrations.Olustur.resources
+D:\BeeSon\BEE.Data\obj\Debug\Bee.Data.csproj.GenerateResource.cache
+D:\BeeSon\BEE.Data\obj\Debug\Bee.Data.csproj.CoreCompileInputs.cache
+D:\BeeSon\BEE.Data\obj\Debug\Bee.Data.csproj.CopyComplete
+D:\BeeSon\BEE.Data\obj\Debug\BEE.Data.dll
+D:\BeeSon\BEE.Data\obj\Debug\BEE.Data.pdb
+C:\Users\Yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\obj\Debug\BEE.Data.Migrations.Olustur.resources
+C:\Users\Yavuz\Desktop\PROJECTS\ASP.NET\MVC\Bee\BEE.Data\obj\Debug\Bee.Data.csproj.GenerateResource.cache

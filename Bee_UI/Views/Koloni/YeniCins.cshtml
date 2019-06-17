@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Yeni Cins";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Html.Raw(TempData["msg"])
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" style="background:#f2d721;padding-top:10px;padding-bottom:10px; border-radius:10px; box-shadow:gray 5px 5px 15px">
+            <form method="post">
+                <div class="form-group">
+                    <label for="CinsAdi">Cins Adı<span class="text-danger">*</span></label>
+                    <input type="text" name="CinsAdi" parsley-trigger="change" required
+                           placeholder="Cins Adı giriniz." class="form-control" id="CinsAdi">
+                </div>
+                
+                <div class="form-group text-right m-b-0">
+                    <button class="btn btn-primary waves-effect waves-light" type="submit">
+                        Kaydet
+                    </button>
+                    <button type="reset" class="btn btn-default waves-effect m-l-5">
+                        İptal
+                    </button>
+                </div>
+
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+

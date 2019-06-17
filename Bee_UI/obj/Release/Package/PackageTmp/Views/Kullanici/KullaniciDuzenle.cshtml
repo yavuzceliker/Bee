@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "KullaniciDuzenle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" enctype="multipart/form-data">
+    @Html.Raw(TempData["msg"])
+    <div class="col-md-6 center-page card-box">
+        <!--AdSoyad--> <div class="form-group form-md-line-input has-success form-md-floating-label">
+            <div class="input-icon right">
+                <label for="form_control">Ad Soyad</label>
+                <input type="text" min="5" required name="AdSoyad" value="@TempData["AdSoyad"]" onkeypress="return ((event.charCode > 64 && event.charCode < 380) || event.charCode == 32 || (event.charCode > 96 && event.charCode < 123))" maxlength="30" class="form-control">
+
+            </div>
+        </div>
+        <!--TCKimlikNo--> <div class="form-group form-md-line-input has-success form-md-floating-label">
+            <div class="input-icon right">
+                <label for="form_control">TC Kimlik No</label>
+                <input type="text" required name="TC" value="@TempData["TC"]" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" maxlength="11" pattern="[0-9]{11}" class="form-control">
+
+            </div>
+        </div>
+        <!--Eposta--> <div class="form-group form-md-line-input has-info form-md-floating-label">
+            <div class="input-icon right">
+                <label for="form_control">E-Posta</label>
+                <input type="email" name="Mail" value="@TempData["Mail"]" maxlength="50" required class="form-control">
+            </div>
+        </div>
+        <!--Telefon-->
+        <div class="form-group form-md-line-input has-info form-md-floating-label">
+            <label>İletişim - Telefon</label>
+            <input type="text" required name="IletisimTel" value="@TempData["IletisimTel"]" maxlength="10" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" pattern="[0-9]{10}" placeholder="" data-mask="(999) 999-9999" class="form-control">
+            <span class="font-13 text-muted">(XXX) XXX-XXXX</span>
+        </div>
+
+        <!--BUTONLAR--> <div class="form-actions noborder">
+            <button type="submit" onclick="FormKaydet()" class="btn btn-custom waves-effect waves-light btn-md">Kaydet</button>
+            <button type="reset" class="btn btn-custom waves-effect waves-light btn-md">İptal</button>
+        </div>
+    </div>
+    <input type="hidden" name="donenveri" id="donenveri" />
+    <script>
+        function FormKaydet() {
+            var Bolge = document.getElementsByName("Bolge")[0].value;
+            var Dogum_Yeri = document.getElementsByName("Dogum_Yeri")[0].value;
+            var Adres_Il = document.getElementsByName("Adres_Il")[0].value;
+            var Adres_Ilce = document.getElementsByName("Adres_Ilce")[0].value;
+            var Pozisyon = document.getElementsByName("Pozisyon")[0].value;
+            document.getElementById("donenveri").setAttribute("value", (Bolge + "," + Dogum_Yeri + "," + Adres_Il + "," + Adres_Ilce + "," + Pozisyon));
+        }
+
+    </script>
+
+</form>
+

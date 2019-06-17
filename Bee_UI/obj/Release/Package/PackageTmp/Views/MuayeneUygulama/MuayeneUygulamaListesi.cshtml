@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Muayene - Uygulama Göster";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card-box table-responsive">
+            <table id="datatable-buttons" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Koloni ID</th>
+                        <th>Yer Grup No</th>
+                        <th>Yer Sıra No</th>
+                        <th>Küme</th>
+                        <th>Son Bal</th>
+                        <th>Puan</th>
+                    </tr>
+                </thead>
+
+
+                <tbody>
+                    @Html.Raw(TempData["Muayene"])
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    function ac(id) {
+        if (id != null)
+            window.location = "/MuayeneUygulama/MuayeneUygulamaGoster/" + id;
+        }
+</script>

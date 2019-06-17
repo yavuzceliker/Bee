@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Anasayfa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .col-md-6 {
+        text-align: center;
+    }
+
+    #menum li {
+        width: 33%;
+        text-align: center;
+        float: left;
+    }
+
+    #menum img {
+        width: 70%;
+    }
+
+    #menum a {
+        padding: 0;
+    }
+
+        #menum a:focus {
+            background: none;
+        }
+
+    .col-md-4 {
+        margin-bottom: 10px;
+    }
+
+</style>
+<div class="col-md-12">
+    @Html.Raw(TempData["Koloni"])
+
+
+
+    
+
+</div>
+

@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+<style>
+    *{margin:0 auto;padding:0;}
+    body{background:#dad2c7;text-align:center;}
+    #resim a{
+        position:absolute;
+        border:1px solid red;
+    }
+</style>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Hata Kodu:404</title>
+</head>
+<body>
+    <div id="resim">
+    </div>
+    <script>
+var myVar = setInterval(myTimer, 100);
+        
+function myTimer() {
+    if (this.innerWidth > this.innerHeight) {
+        document.getElementById("resim").setAttribute("style", "background:url(../../assets/images/404.png)no-repeat center;height:100%;width:100%; background-size:auto 100%;");
+    }
+    else {
+        document.getElementById("resim").setAttribute("style", "background:url(../../assets/images/404.png)no-repeat center;height:100%;width:100%; background-size:100% auto;");
+    }
+}
+</script>
+</body>
+</html>

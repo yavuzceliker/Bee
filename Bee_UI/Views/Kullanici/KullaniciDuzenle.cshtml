@@ -1,0 +1,154 @@
+﻿
+@{
+    ViewBag.Title = "KullaniciDuzenle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/profilplugins/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="~/profilplugins/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js" type="text/javascript"></script>
+<script src="~/profilplugins/assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+@Html.Raw(TempData["msg"])
+<div class="row">
+    <div class="col-md-12">
+        <!-- END BEGIN PROFILE SIDEBAR -->
+        <!-- BEGIN PROFILE CONTENT -->
+        <div class="profile-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="portlet light ">
+                        <div class="portlet-title tabbable-line">
+                            <ul class="nav nav-tabs">
+                                <li class="active">
+                                    <a href="#tab_1_1" data-toggle="tab">Kişisel Bilgiler</a>
+                                </li>
+                                <li>
+                                    <a href="#tab_1_2" data-toggle="tab">Profil Fotoğrafı Değiştir</a>
+                                </li>
+                                <li>
+                                    <a href="#tab_1_3" data-toggle="tab">Şifreyi Değiştir</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="tab-content">
+                                <!-- PERSONAL INFO TAB -->
+                                <div class="tab-pane active" id="tab_1_1">
+                                    <form method="post">
+                                        <div class="form-group">
+                                            <label class="control-label">Ad Soyad</label>
+                                            <input type="text" maxlength="50" name="AdSoyad" onkeypress="return ((event.charCode > 64 && event.charCode < 380) || event.charCode == 32 || (event.charCode > 96 && event.charCode < 123))" min="6" placeholder="@Html.Raw(TempData["AdSoyad"])" class="form-control" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">TC Kimlik No</label>
+                                            <input type="text" name="TCKimlikNo" maxlength="11" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" placeholder="@Html.Raw(TempData["TC"])" class="form-control" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">E-Posta</label>
+                                            <input type="text" maxlength="50" name="Eposta" placeholder="@Html.Raw(TempData["Eposta"])" class="form-control" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">Telefon</label>
+                                            <input type="text" name="Telefon" maxlength="11" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" placeholder="@Html.Raw(TempData["Telefon"])" class="form-control" />
+                                        </div>
+
+                                        <div class="margiv-top-10">
+                                            <input type="submit" name="BTN" onclick="FormKaydet()" class="btn green" value="Kaydet" />
+                                            <input type="reset" class="btn default" value="İptal" />
+                                        </div>
+                                        <input type="hidden" id="veri" name="veri" />
+                                    </form>
+                                </div>
+                                <!-- END PERSONAL INFO TAB -->
+                                <!-- CHANGE AVATAR TAB -->
+                                <div class="tab-pane" id="tab_1_2">
+                                    <p>
+                                        Profil fotoğrafı ekleyin.
+                                    </p><form method="post" enctype="multipart/form-data">
+                                        <div class="form-group">
+                                            <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;">
+                                                    <img src="@TempData["Fotograf"]" alt="">
+                                                </div>
+                                                <div>
+                                                    <span class="btn default btn-file">
+                                                        <span class="fileinput-new"> Fotoğraf Seç </span>
+                                                        <span class="fileinput-exists"> Değiştir </span>
+                                                        <input type="file" name="Fotograf" accept="image/*" id="filestyle-0" tabindex="-1" style="position: absolute; clip: rect(0px, 0px, 0px, 0px);"><div class="bootstrap-filestyle input-group"><span class="group-span-filestyle " tabindex="0"><label for="filestyle-0" class="btn btn-default "><span class="icon-span-filestyle glyphicon glyphicon-folder-open"></span> <span class="buttonText">Dosya Sec</span></label></span></div>
+                                                    </span>
+                                                    <a href="javascript:;" class="btn default fileinput-exists" data-dismiss="fileinput"> Sil </a>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix margin-top-10">
+                                                <span class="label label-danger">NOT</span>
+                                                <span>Eklenen fotoğrafın küçük resmi Firefox, Chrome, Opera, Safari ve Internet Explorer un son sürümlerinde çalışır. </span>
+                                            </div>
+                                        </div>
+                                        <div class="margin-top-10">
+                                            <input type="submit" name="BTN" class="btn green" value="Fotoğrafı Kaydet">
+                                            <input type="reset" class="btn default" value="İptal">
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- END CHANGE AVATAR TAB -->
+                                <!-- CHANGE PASSWORD TAB -->
+                                <div class="tab-pane" id="tab_1_3">
+                                    <form method="post">
+                                        <div class="form-group">
+                                            <label class="control-label">Mevcut Şifre</label>
+                                            <input type="password" name="MSifre" class="form-control" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">Yeni Şifre</label>
+                                            <input type="password" name="Sifre" class="form-control" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">Yeni Şifre Tekrar</label>
+                                            <input type="password" name="YSifre" class="form-control" />
+                                        </div>
+                                        <div class="margin-top-10">
+                                            <input type="submit" name="BTN" class="btn green" value="Şifreyi Değiştir" />
+                                            <a href="" class="btn default"> İptal</a>
+                                        </div>
+                                    </form>
+                                </div>
+                                <script>
+                                    function sec(deger) {
+                                        var Veri = { Veri: document.getElementsByName("Adres_Il")[0].value };
+                                        $.ajax({
+                                            url: '@Url.Action("SelectDoldur", "Personel")',
+                                            type: 'POST',
+                                            dataType: 'json',
+                                            data: Veri,
+                                            success: function (data) {
+                                                document.getElementsByName("Adres_Ilce")[0].innerHTML = data;
+                                            }
+                                        });
+                                    }
+
+                                    function FormKaydet() {
+
+                                        var Adres_Il = document.getElementsByName("Adres_Il")[0].value;
+                                        var Adres_Ilce = document.getElementsByName("Adres_Ilce")[0].value;
+                                        var Cinsiyet = document.getElementsByName("Cinsiyet")[0].value;
+                                        var Bolge = document.getElementsByName("Bolge")[0].value;
+                                        var Kan_Grubu = document.getElementsByName("Kan_Grubu")[0].value;
+                                        var Medeni_Hali = document.getElementsByName("Medeni_Hali")[0].value;
+                                        var Egitim_Durumu = document.getElementsByName("Egitim_Durumu")[0].value;
+                                        var Dogum_Yeri = document.getElementsByName("Dogum_Yeri")[0].value;
+                                        var IBAN = document.getElementsByName("IBAN")[0].value;
+                                        document.getElementById("veri").setAttribute("value", (Adres_Il + "," + Adres_Ilce + "," + Cinsiyet + "," + Bolge + "," + Kan_Grubu + "," + Medeni_Hali + "," + Egitim_Durumu + "," + Dogum_Yeri + "," + IBAN));
+
+                                    }
+                                </script>
+                                <!-- END CHANGE PASSWORD TAB -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END PROFILE CONTENT -->
+    </div>
+</div>
+
+

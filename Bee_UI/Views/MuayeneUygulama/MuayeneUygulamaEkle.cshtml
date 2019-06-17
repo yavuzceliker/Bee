@@ -1,0 +1,440 @@
+﻿@{
+
+    ViewBag.Title = "Muayene - Uygulama Kayıt";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Html.Raw(TempData["msg"])
+<style>
+    #cb {
+        margin-bottom: -7px;
+    }
+
+    .col-md-6 {
+        padding-left: 10px;
+    }
+</style>
+<form method="post">
+    <div class="row">
+        <div class="col-md-6 card-box">
+            <b style="vertical-align:top;line-height:23px;font-size:20px;">Muayene</b><input name="muayenecb" type="checkbox" onchange="kontrol('muayene')" id="muayene" switch="inverse">
+            <label for="muayene" data-on-label="Var" data-off-label="Yok"></label>
+            <div id="muayenediv" style="display:none;">
+                <div class="form-group">
+                    <label for="Mevcut_Durumu">Mevcut Durumu<span class="text-danger">*</span></label>
+                    <select class="form-control" name="MevcutDurumu" id="Mevcut_Durumu">
+                        <option>Seçiniz</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Ana_Durumu">Ana Durumu<span class="text-danger">*</span></label>
+                    <select class="form-control" name="AnaDurumu" id="Ana_Durumu">
+                        <option>Seçiniz</option>
+                        <option>Mevcut</option>
+                        <option>Yok</option>
+                        <option>Görülmedi</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Besin_Durumu">Besin Durumu<span class="text-danger">*</span></label>
+                    <select class="form-control" name="BesinDurumu" id="Besin_Durumu">
+                        <option>Seçiniz</option>
+                        <option>Aç</option>
+                        <option>Tok</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Eksik_Cerceve">Eksik Çerçeve<span class="text-danger">*</span></label>
+                    <input type="number" name="EksikCerceve" class="form-control" id="Eksik_Cerceve">
+                </div>
+                <div class="form-group">
+                    <label for="Ana_Memesi">Ana Memesi<span class="text-danger">*</span></label>
+                    <select class="form-control" name="AnaMemesi" id="Ana_Memesi">
+                        <option>Seçiniz</option>
+                        <option>Başlangıç</option>
+                        <option>Gelişme</option>
+                        <option>Kapalı</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Yalanci_Ana">Yalanci Ana<span class="text-danger">*</span></label>
+                    <select class="form-control" name="YalanciAna" id="Yalanci_Ana">
+                        <option>Seçiniz</option>
+                        <option>Yok</option>
+                        <option>Var</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Ogul">Oğul</label>
+                    <select class="form-control" name="Ogul" id="Ogul">
+                        <option>Seçiniz</option>
+                        <option>Yok</option>
+                        <option>Var</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Bal_Durumu">Bal Durumu</label>
+                    <select class="form-control" name="BalDurumu" id="Bal_Durumu">
+                        <option>Seçiniz</option>
+                        <option>Yok</option>
+                        <option>Var</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Kovan_Durumu">Kovan Durumu(Sönme)<span class="text-danger">*</span></label>
+                    <select class="form-control" name="Kovan_Durumu" id="Kovan_Durumu">
+                        <option>Seçiniz</option>
+                        <option>Yok</option>
+                        <option>Sönmüş</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Fiziksel_Sorun">Fiziksel Sorun<span class="text-danger">*</span></label>
+                    <input type="checkbox" name="fizikselSoruncb" onchange="varyok('Fiziksel_Sorun','F_Sorun')" id="F_Sorun" switch="inverse">
+                    <label id="cb" for="F_Sorun" data-on-label="Var" data-off-label="Yok"></label>
+                    <textarea placeholder="Fiziksel sorunu belirtiniz." class="form-control" name="FizikselSorun" style="display:none;" id="Fiziksel_Sorun" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="Hasta">Hastalık<span class="text-danger">*</span></label>
+                    <input type="checkbox" name="hastalikcb" onchange="varyok('Hastalik', 'Hasta')" id="Hasta" switch="inverse">
+                    <label id="cb" for="Hasta" data-on-label="Var" data-off-label="Yok"></label>
+                    <textarea placeholder="Hastalığı belirtiniz." class="form-control" name="Hastalik" style="display:none;" id="Hastalik" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="Parazit">Parazit<span class="text-danger">*</span></label>
+                    <input type="checkbox" name="parazitcb" onchange="varyok('parazitbilgi', 'Parazit')" id="Parazit" switch="inverse">
+                    <label id="cb" for="Parazit" data-on-label="Var" data-off-label="Yok"></label>
+                    <textarea placeholder="Parazit durumunu belirtiniz." class="form-control" name="Parazit" style="display:none;" id="parazitbilgi" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="Zararli">Zararlı<span class="text-danger">*</span></label>
+                    <input type="checkbox" name="zararlicb" onchange="varyok('zararlibilgi', 'Zararli')" id="Zararli" switch="inverse">
+                    <label id="cb" for="Zararli" data-on-label="Var" data-off-label="Yok"></label>
+                    <textarea placeholder="Zararlı durumunu belirtiniz." class="form-control" name="Zararli" style="display:none;" id="zararlibilgi" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="yavrudurumu">Yavru Durumu<span class="text-danger"></span></label>
+                    <br /><br />&nbsp;&nbsp;Pupa:
+                    <input type="checkbox" name="yavrudurumu" id="pupa" switch="inverse">
+                    <label id="cb" for="pupa" data-on-label="Var" data-off-label="Yok"></label>
+                    <br /><br />&nbsp;&nbsp;Larva:
+                    <input type="checkbox" name="yavrudurumu" id="larva" switch="inverse">
+                    <label id="cb" for="larva" data-on-label="Var" data-off-label="Yok"></label>
+                    <br /><br />&nbsp;&nbsp;Yumurta:
+                    <input type="checkbox" name="yavrudurumu" id="yumurta" switch="inverse">
+                    <label id="cb" for="yumurta" data-on-label="Var" data-off-label="Yok"></label>
+                </div>
+
+
+                <div class="form-group col-md-5">
+                    <label for="MuayeneAdi0">Muayene Adı<span class="text-danger"></span></label>
+                    <input type="text" name="MuayeneAdi" class="form-control" id="MuayeneAdi0">
+                </div>
+                <div class="form-group col-md-5">
+                    <label for="MuayeneMetni0">Muayene Açıklaması<span class="text-danger"></span></label>
+                    <input type="text" name="MuayeneMetni" class="form-control" id="MuayeneMetni0">
+                </div>
+                <div class='form-group col-md-2' id='butonlar1'>
+                    <br />
+                    <i class='fa fa-plus fa-2x' id='artibuton' onclick="yeni('+','m')"></i>
+                </div>
+                <div id="yeniekle">
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-6 card-box">
+            <b style="vertical-align:top;line-height:23px;font-size:20px;">Uygulama</b><input type="checkbox" name="uygulamacb" onchange="kontrol('uygulama')" id="uygulama" name="UygulamaDurumu" switch="inverse">
+            <label for="uygulama" data-on-label="Var" data-off-label="Yok"></label>
+            <div id="uygulamadiv" style="display:none;">
+                <div class="form-group">
+                    <label for="Ana_Verme">Ana Verme<span class="text-danger">*</span></label>
+                    <select class="form-control" name="AnaVerme" id="Ana_Verme">
+                        <option>Seçiniz</option>
+                        <option>Verilmedi</option>
+                        <option>Verildi</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Cerceve_Alma">Çerçeve Alma<span class="text-danger">*</span></label>
+                    <select class="form-control" name="CerceveAlma" id="Cerceve_Alma">
+                        <option>Seçiniz</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Cerceve_Verme">Çerçeve Verme<span class="text-danger">*</span></label>
+                    <select class="form-control" name="CerceveVerme" id="Cerceve_Verme">
+                        <option>Seçiniz</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Ilaclama">İlaçlama<span class="text-danger">*</span></label>
+                    <input type="checkbox" onchange="varyok('Ilac', 'Ilaclama')" id="Ilaclama" switch="inverse">
+                    <label id="cb" for="Ilaclama" data-on-label="Var" data-off-label="Yok"></label>
+                    <textarea placeholder="Açıklama giriniz." class="form-control" name="Ilaclama" style="display:none;" id="Ilac" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="Onarim">Fiziksel Onarım<span class="text-danger">*</span></label>
+                    <input type="checkbox" onchange="varyok('Fiziksel_Onarim', 'Onarim')" id="Onarim" switch="inverse">
+                    <label id="cb" for="Onarim" data-on-label="Var" data-off-label="Yok"></label>
+                    <textarea placeholder="Açıklama giriniz." class="form-control" name="FizikselOnarim" style="display:none;" id="Fiziksel_Onarim" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="Besin">Besin Verme<span class="text-danger">*</span></label>
+                    <select name="Besin" id="Besin">
+                        <option>Seçiniz.</option>
+                        @Html.Raw(TempData["Besin"])
+                    </select>
+                    <label id="cb" for="Besin" data-on-label="Var" data-off-label="Yok"></label>
+                </div>
+                <div class="form-group">
+                    <label for="Birlestir">Birleştirme<span class="text-danger">*</span></label>
+                    <input type="checkbox" onchange="varyok('Birlestirme', 'Birlestir')" id="Birlestir" switch="inverse">
+                    <label id="cb" for="Birlestir" data-on-label="Var" data-off-label="Yok"></label>
+                    <select class="form-control" name="Birlestirme" style="display:none;" id="Birlestirme">
+                        <option>Kaynak ID:</option>
+                        <option>123456789</option>
+                        <option>123456788</option>
+                        <option>123456787</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Bol">Bölme<span class="text-danger">*</span></label>
+                    <input type="checkbox" onchange="varyok('Bolme', 'Bol')" id="Bol" switch="inverse">
+                    <label id="cb" for="Bol" data-on-label="Var" data-off-label="Yok"></label>
+                    <input type="number" name="Bolme" style="display:none;" placeholder="Yeni ID:" class="form-control" id="Bolme">
+                </div>
+                <div class="form-group">
+                    <label for="Ballik_Alma">Ballık Alma<span class="text-danger">*</span></label>
+                    <input type="checkbox" name="BallikAlma" id="Ballik_Alma" switch="inverse">
+                    <label id="cb" for="Ballik_Alma" data-on-label="Var" data-off-label="Yok"></label>
+                </div>
+                <div class="form-group">
+                    <label for="Bal_Hasat">Bal Hasadı<span class="text-danger">*</span></label>
+                    <input type="checkbox" onchange="varyok('Bal_Hasadi', 'Bal_Hasat')" id="Bal_Hasat" switch="inverse">
+                    <label id="cb" for="Bal_Hasat" data-on-label="Var" data-off-label="Yok"></label>
+                    <input type="number" name="BalHasadi" style="display:none;" placeholder="Bal miktarı." class="form-control" id="Bal_Hasadi">
+                </div>
+
+
+
+                <div class="form-group col-md-5">
+                    <label for="UygulamaAdi0">Uygulama Adı<span class="text-danger"></span></label>
+                    <input type="text" name="UygulamaAdi" class="form-control" id="UygulamaAdi0">
+                </div>
+                <div class="form-group col-md-5">
+                    <label for="UygulamaMetni0">Uygulama Açıklaması<span class="text-danger"></span></label>
+                    <input type="text" name="UygulamaMetni" class="form-control" id="UygulamaMetni0">
+                </div>
+                <div class='form-group col-md-2' id='butonlar2'>
+                    <br />
+                    <i class='fa fa-plus fa-2x' id='artibuton' onclick="yeni('+','u')"></i>
+                </div>
+                <div id="yeniekle2">
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var sayac = 1;
+            var sayac2 = 1;
+
+
+            function yeni(tip, islem) {
+
+                if (islem == 'm') {
+
+
+                    var MuayeneAdi = new Array;
+                    var MuayeneMetni = new Array;
+                    for (var i = 1; i < sayac; i++) {
+                        MuayeneAdi[i] = document.getElementsByName("MuayeneAdi")[i].value;
+                        MuayeneMetni[i] = document.getElementsByName("MuayeneMetni")[i].value;
+                    }
+
+
+                    document.getElementById("yeniekle").innerHTML = "";
+                    if (tip == '+') {
+                        sayac++;
+                        for (var i = 1; i < sayac; i++) {
+                            document.getElementById("yeniekle").innerHTML += "<div class='form-group col-md-5'>" +
+                                "<label for='MuayeneAdi" + [i] + "'>Muayene Adı<span class='text-danger'></span></label>" +
+                                "<input type='text' name='MuayeneAdi' value='" + (MuayeneAdi[i] == undefined ? "" : MuayeneAdi[i]) + "' class='form-control' id='MuayeneAdi" + (i) + "'>" +
+                                "</div>" +
+                                "<div class='form-group col-md-5'>" +
+                                "<label for='MuayeneMetni" + [i] + "'>Muayene Açıklaması<span class='text-danger'></span></label>" +
+                                "<input type='text' name='MuayeneMetni' value='" + (MuayeneMetni[i] == undefined ? "" : MuayeneMetni[i]) + "' class='form-control' id='MuayeneMetni" + (i) + "'>" +
+                                "</div>";
+                        }
+                    }
+                    if (tip == '-') {
+
+                        sayac--;
+                        for (var i = 1; i < sayac; i++) {
+                            document.getElementById("yeniekle").innerHTML += "<div class='form-group col-md-5'>" +
+                                "<label for='MuayeneAdi" + [i] + "'>Muayene Adı<span class='text-danger'></span></label>" +
+                                "<input type='text' name='MuayeneAdi' value='" + (MuayeneAdi[i] == undefined ? "" : MuayeneAdi[i]) + "' class='form-control' id='MuayeneAdi" + (i) + "'>" +
+                                "</div>" +
+                                "<div class='form-group col-md-5'>" +
+                                "<label for='MuayeneMetni" + [i] + "'>Muayene Açıklaması<span class='text-danger'></span></label>" +
+                                "<input type='text' name='MuayeneMetni' value='" + (MuayeneMetni[i] == undefined ? "" : MuayeneMetni[i]) + "' class='form-control' id='MuayeneMetni" + (i) + "'>" +
+                                "</div>";
+                        }
+                    }
+
+                    if (sayac <= 1) {
+                        document.getElementById("butonlar1").style.display = "block";
+                    }
+                    else {
+                        document.getElementById("butonlar1").style.display = "none";
+                        document.getElementById("yeniekle").innerHTML += "<div class='form-group col-md-2' id='butonlar'>" +
+                            "<br />" +
+                            (sayac < 20 ? "<i class='fa fa-plus fa-2x' id='artibuton' onclick=\"yeni('+','m')\"></i> " : "") +
+                            "<i class='fa fa-minus fa-2x' id='artibuton' onclick=\"yeni('-','m')\"></i>" +
+                            "</div>";
+                    }
+                }
+                else if (islem == 'u') {
+                    var UygulamaAdi = new Array;
+                    var UygulamaMetni = new Array;
+                    for (var i = 1; i < sayac2; i++) {
+                        UygulamaAdi[i] = document.getElementsByName("UygulamaAdi")[i].value;
+                        UygulamaMetni[i] = document.getElementsByName("UygulamaMetni")[i].value;
+                    }
+
+
+                    document.getElementById("yeniekle2").innerHTML = "";
+                    if (tip == '+') {
+                        sayac2++;
+                        for (var i = 1; i < sayac2; i++) {
+                            document.getElementById("yeniekle2").innerHTML += "<div class='form-group col-md-5'>" +
+                                "<label for='UygulamaAdi" + [i] + "'>Uygulama Adı<span class='text-danger'></span></label>" +
+                                "<input type='text' name='UygulamaAdi' value='" + (UygulamaAdi[i] == undefined ? "" : UygulamaAdi[i]) + "' class='form-control' id='UygulamaAdi" + (i) + "'>" +
+                                "</div>" +
+                                "<div class='form-group col-md-5'>" +
+                                "<label for='UygulamaMetni" + [i] + "'>Uygulama Açıklaması<span class='text-danger'></span></label>" +
+                                "<input type='text' name='UygulamaMetni' value='" + (UygulamaMetni[i] == undefined ? "" : UygulamaMetni[i]) + "' class='form-control' id='UygulamaMetni" + (i) + "'>" +
+                                "</div>";
+                        }
+                    }
+                    if (tip == '-') {
+
+                        sayac2--;
+                        for (var i = 1; i < sayac2; i++) {
+                            document.getElementById("yeniekle2").innerHTML += "<div class='form-group col-md-5'>" +
+                                "<label for='UygulamaAdi" + [i] + "'>Uygulama Adı<span class='text-danger'></span></label>" +
+                                "<input type='text' name='UygulamaAdi' value='" + (UygulamaAdi[i] == undefined ? "" : UygulamaAdi[i]) + "' class='form-control' id='UygulamaAdi" + (i) + "'>" +
+                                "</div>" +
+                                "<div class='form-group col-md-5'>" +
+                                "<label for='UygulamaMetni" + [i] + "'>Uygulama Açıklaması<span class='text-danger'></span></label>" +
+                                "<input type='text' name='UygulamaMetni' value='" + (UygulamaMetni[i] == undefined ? "" : UygulamaMetni[i]) + "' class='form-control' id='UygulamaMetni" + (i) + "'>" +
+                                "</div>";
+                        }
+                    }
+
+                    if (sayac2 <= 1) {
+                        document.getElementById("butonlar2").style.display = "block";
+                    }
+                    else {
+                        document.getElementById("butonlar2").style.display = "none";
+                        document.getElementById("yeniekle2").innerHTML += "<div class='form-group col-md-2' id='butonlar'>" +
+                            "<br />" +
+                            (sayac < 20 ? "<i class='fa fa-plus fa-2x' id='artibuton' onclick=\"yeni('+','u')\"></i> " : "") +
+                            "<i class='fa fa-minus fa-2x' id='artibuton' onclick=\"yeni('-','u')\"></i>" +
+                            "</div>";
+                    }
+                }
+
+            }
+        </script>
+        <div class="col-md-12 card-box">
+            <div class="form-group col-md-4">
+                <label for="Koloni_ID">Kovan ID<span class="text-danger">*</span></label>
+                <input type="number" name="KovanId" parsley-trigger="change"
+                       placeholder="Koloni ID giriniz." class="form-control" id="KoloniId">
+                <div class="form-group text-right m-t-20">
+                    <button class="btn btn-primary waves-effect waves-light" type="button" onclick="qrkod()">Kodu Tara</button>
+                </div>
+            </div>
+            <div id="qrkod" style="display:none;">
+            </div>
+            <script>
+                var kontrol = 0;
+                function qrkod() {
+                    document.getElementById("qrkod").setAttribute("style", "display:block; position:absolute;width:300px;height:500px;");
+                    document.getElementById("qrkod").innerHTML = "<iframe id='frame' src='/home/QROkuma'></iframe>";
+                    kontrol = 0;
+
+                    var myVar = setInterval(myTimer, 100);
+                    function myTimer() {
+                        if (kontrol == 0) {
+                            var iframe = document.getElementById('frame');
+                            var innerDoc = (iframe.contentDocument) ? iframe.contentDocument : iframe.contentWindow.document;
+                            
+                            if (innerDoc.getElementById("qrkodgelen").value != "") {
+                                document.getElementById("KoloniId").value = innerDoc.getElementById("qrkodgelen").value;
+                                kontrol = 1;
+                                document.getElementById("qrkod").setAttribute("style", "display:none;");
+                                document.getElementById("qrkod").innerHTML = "";
+                            }
+                        }
+                    }
+                }
+            </script>
+            <div class="form-group col-md-4">
+                <label>Tarih</label>
+                <div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="aa/gg/yyyy" id="datepicker-autoclose" name="tarih">
+                        <span class="input-group-addon bg-custom b-0"><i class="mdi mdi-calendar text-white"></i></span>
+                    </div><!-- input-group -->
+                </div>
+            </div>
+            <div class="form-group col-md-4">
+                <label>Saat</label>
+                <div class="input-group clockpicker m-b-20" data-placement="top" data-align="top" data-autoclose="true">
+                    <input type="text" class="form-control" value="13:14" name="saat">
+                    <span class="input-group-addon"> <span class="mdi mdi-clock"></span> </span>
+                </div>
+
+                <div class="form-group text-right m-b-0">
+                    <button class="btn btn-primary waves-effect waves-light" name ="btnkaydet" type="submit">
+                        Muayene - Uygulama Kaydet
+                    </button>
+                    <button type="reset" class="btn btn-default waves-effect m-l-5">
+                        İptal
+                    </button>
+                </div>
+            </div>
+            <!-- input-group -->
+        </div>
+    </div>
+</form>
+<script>
+    function kontrol(checkbox) {
+        if (checkbox == "muayene") {
+            document.getElementById("muayenediv").setAttribute("style", "display:" + (document.getElementById("muayene").checked == true ? "block;" : "none"));
+        }
+        else if (checkbox == "uygulama") {
+            document.getElementById("uygulamadiv").setAttribute("style", "display:" + (document.getElementById("uygulama").checked == true ? "block;" : "none"));
+        }
+    }
+    function varyok(textarea, cb) {
+        document.getElementById(textarea).setAttribute("style", "display:" + (document.getElementById(cb).checked == true ? "block" : "none"));
+    }
+</script>
